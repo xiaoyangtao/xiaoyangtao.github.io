@@ -1,0 +1,131 @@
+data ={
+	"news":[
+		{"text":"Named on Forbes 30 Under 30 China list (science) in 2019.", "link":"http://www.baidu.com"},
+		{"text":"Serves as a Poster chair of PacificVis 2020.", "link":"http://www.baidu.com"},
+		{"text":"Recipient of the Young Scientists Fund (2019-2021) by the National Natural Science Foundation of China.", "link":"http://www.baidu.com"}
+	],
+	"students":[
+		{"degree": "MS", "students":[{"name":"Siji Chen","degree":"MS"}]}
+	],
+	"publications":[
+		{
+		 	"title":"AI-Sketcher: A Deep Generative Model for Generating High Quality Sketches",
+		 	"authors":"Nan Cao, Xin Yan, Yang Shi, Chaoran Chen",
+		 	"publisher":"The Thirty-Third AAAI Conference on Artificial Intelligence",
+		 	"materials":{},
+		 	"year":2019,
+		 	"featured":"no",
+		 	"award":"",
+		 	"type": "conference",
+		 	"folder":"AI-Sketcher"
+		 },
+		 {
+		 	"title":"Interactive Context-Aware Anomaly Detection Guided by User Feedback",
+		 	"authors":"Yang Shi, Maoran Xu, Rongwen Zhao, Hao Fu, Tongshuang Wu, Nan Cao",
+		 	"publisher":"IEEE Transactions on Human-Machine Systems",
+		 	"materials":{},
+		 	"year":2019,
+		 	"featured":"yes",
+		 	"award":"",
+		 	"type": "journal",
+		 	"folder":"Interactive"
+		 },
+		 {
+		 	"title":"VisAct: A Visualization Design System based on Semantic Actions",
+		 	"authors":"Hongjin Wu, Danqing Shi, Nan Chen, Yang Shi, Zhuochen Jin, Nan Cao",
+		 	"publisher":"Journal of Visualization",
+		 	"materials":{},
+		 	"year":2019,
+		 	"featured":"no",
+		 	"award":"",
+		 	"type": "conference",
+		 	"folder":"VisAct"
+		 },
+		{"title":"MeetingVis: Visual Narratives to Assist in Recalling Meeting Context and Content",
+		 "authors": "Yang Shi, Chris Bryan, Sridatt Bhamidipati, Ying Zhao, Yaoxue Zhang, Kwan-Liu Ma",
+		 "publisher":"IEEE Transactions on Visualization and Computer Graphics",
+		 "materials":{},
+		 "year":2018,
+		 "featured":"yes",
+		 "award":"IEEE PacificVis 2018 Paper Honorable Mention Award",
+		 "type": "journal",
+		 "folder":"MeetingVis"
+		},
+		 {
+		 	"title":"A Novel Radial Visualization of Intrusion Detection Alerts",
+		 	"authors":"Yang Shi, Ying Zhao, Fangfang Zhou, Guojun Wang, Ronghua Shi, Yaoxue Zhang",
+		 	"publisher":"IEEE Computer Graphics and Applications",
+		 	"materials":{},
+		 	"year":2018,
+		 	"featured":"yes",
+		 	"award":"",
+		 	"type": "journal",
+		 	"folder":"Novel"
+		 },
+		 {
+		 	"title":"Designing Emotional Expressions of Conversational States for Voice Assistants: Modality and Engagement",
+		 	"authors":"Yang Shi, Xin Yan, Xiaojuan Ma, Yongqi Lou, Nan Cao",
+		 	"publisher":"ACM SIGCHI Extended Abstracts on Human Factors in Computing Systems 2018",
+		 	"materials":{"video":"yes"},
+		 	"year":2018,
+		 	"featured":"no",
+		 	"award":"",
+		 	"type": "conference",
+		 	"folder":"Designing"
+		 },
+		 {"title":"IdeaWall: Improving Creative Collaboration through Combinatorial Visual Stimuli",
+		  "authors":"Yang Shi, Yang Wang, Ye Qi, John Chen, Xiaoyao Xu, Kwan-Liu Ma",
+		  "publisher":"ACM Computer-Supported Cooperative Work and Social Computing 2017",
+		  "materials":{},
+		  "year":2017,
+		  "featured":"no",
+		  "award":"",
+		  "type": "conference",
+		  "folder":"IdeaWall"
+		 },
+		 {
+		 	"title":"IDSPlanet: A Novel Radial Visualization of Intrusion Detection Alerts",
+		 	"authors":"Yang Shi, Yaoxue Zhang, Fangfang Zhou, Ying Zhao, Guojun Wang, Ronghua Shi, Xing Liang",
+		 	"publisher":"VINCI 2016 - 9th International Symposium on Visual Information Communication and Interaction",
+		 	"materials":{},
+		 	"year":2016,
+		 	"featured":"no",
+		 	"award":"",
+		 	"type": "conference",
+		 	"folder":"IDSPlanet"
+		 },
+		 {
+		 	"title":"Dimension Reconstruction for Visual Exploration of Subspace Clusters in High-dimensional Data",
+		 	"authors":"Fangfang Zhou, Juncai Li, Wei Huang, Ying Zhao, Xiaoru Yuan, Xing Liang, Yang Shi",
+		 	"publisher":"IEEE Pacific Visualization Symposium (PacificVis) 2016",
+		 	"materials":{},
+		 	"year":2016,
+		 	"featured":"no",
+		 	"award":"",
+		 	"type": "conference",
+		 	"folder":"Dimension"
+		 },
+		 {
+		 	"title":"ENTVis: A Visual Analytic Tool for Entropy-Based Network Traffic Anomaly Detection",
+		 	"authors":"Fangfang Zhou, Wei Huang, Ying Zhao, Yang Shi, Xing Liang, Xiaoping Fan",
+		 	"publisher":"IEEE Computer Graphics and Applications",
+		 	"materials":{},
+		 	"year":2015,
+		 	"featured":"yes",
+		 	"award":"",
+		 	"type": "journal",
+		 	"folder":"ENTVis"
+		 },
+		 {
+		 	"title":"Celestia: A vocal interaction music game",
+		 	"authors":"Yang Shi, Cheng Yang",
+		 	"publisher":"ACM SIGGRAPH 2013 Poster",
+		 	"materials":{},
+		 	"year":2013,
+		 	"featured":"yes",
+		 	"award":"ACM SIGCHI 2013 Student Game Competition",
+		 	"type": "conference",
+		 	"folder":"Celestia"
+		 }
+	]
+}
