@@ -20,15 +20,15 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js" tppabs="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script> -->
     <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js" tppabs="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
    
-    <script src="js/homepage.js" tppabs="http://ranjithakumar.net/js/homepage.js"></script>
-    <script src="js/angularTemplate.js" tppabs="http://ranjithakumar.net/js/angularTemplate.js"></script>
+    <script src="js/homepage.js"></script>
+    <script src="js/angularTemplate.js"></script>
     
 
     <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" tppabs="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="stylesheets/app.css" tppabs="http://ranjithakumar.net/stylesheets/app.css" />
-    <link rel="stylesheet" href="stylesheets/homepage.css" tppabs="http://ranjithakumar.net/stylesheets/homepage.css" />
-    <link rel="stylesheet" href="stylesheets/index.css" tppabs="http://ranjithakumar.net/stylesheets/index.css" />
+    <link rel="stylesheet" href="stylesheets/app.css"/>
+    <link rel="stylesheet" href="stylesheets/homepage.css"/>
+    <link rel="stylesheet" href="stylesheets/index.css"/>
 
   </head>
   <body ng-app="angularTemplate">
@@ -63,7 +63,7 @@
                     <div class="row">
                       <div class="small-8 medium-4 small-centered medium-uncentered columns">
                         <div class="headshot section">
-                          <img src="resources/headshot.jpg" tppabs="http://ranjithakumar.net/resources/headshot.jpg">
+                          <img src="resources/headshot.jpg">
                         </div>
                       </div>
 
@@ -163,7 +163,7 @@
               <div class="section">
                 <div class="heading">News</div>
                 <div class="news_item" ng-repeat="news_item in personalInfo.news">
-                  <a href="javascript:if(confirm(%27http://ranjithakumar.net/{{news_item.link}}  \n\nThis file was not retrieved by Teleport Ultra, because the server reports that access to this file is forbidden.  \n\nDo you want to open it from the server?%27))window.location=%27http://ranjithakumar.net/{{news_item.link}}%27" tppabs="http://ranjithakumar.net/{{news_item.link}}">{{news_item.text}}</a>
+                  <a href="">{{news_item.text}}</a>
                 </div>
               </div>
 
