@@ -162,8 +162,16 @@
 
               <div class="section">
                 <div class="heading">News</div>
-                <div class="news_item" ng-repeat="news_item in personalInfo.news">
-                  <a href="">{{news_item.text}}</a>
+                <!-- <div class="news_item" ng-repeat="news_item in personalInfo.news"> -->
+                <div class="news_item">
+                  <!-- <a href="">{{news_item.text}}</a> -->
+                  <a href="">Named on Forbes 30 Under 30 China list (science) in 2019.</a>
+                </div>
+                <div class="news_item">
+                  <a href="">Serves as a Poster chair of PacificVis 2020.</a>
+                </div>
+                <div class="news_item">
+                  <a href="">Recipient of the Young Scientists Fund (2019-2021) by the National Natural Science Foundation of China.</a>
                 </div>
               </div>
 
@@ -172,12 +180,15 @@
               <div class="section">
                 <div class="heading">Students</div>
                 <div class="degreeblock" ng-repeat="degreeblock in personalInfo.students">
-                  <span class="degree">{{degreeblock.degree}}</span>
+                  <!-- <span class="degree">{{degreeblock.degree}}</span> -->
+                  <span class="degree">MS</span>
+
                   <div class="student" ng-repeat="student in degreeblock.students">
-                    <span class="name">{{student.name}}</a>&nbsp;
+                    <!-- <span class="name">{{student.name}}</a>&nbsp; -->
+                    <span class="name">Siji Chen</span>
                     <span ng-if="student.next">
-                      <span class="gradyear">{{student.degree}}</span>&nbsp;&nbsp;&nbsp;
-                      <span class="next">{{student.next}}</span>
+                      <!-- <span class="gradyear">{{student.degree}}</span>&nbsp;&nbsp;&nbsp; -->
+                      <!-- <span class="next">{{student.next}}</span> -->
                     </span>
                   </div>
                 </div>
