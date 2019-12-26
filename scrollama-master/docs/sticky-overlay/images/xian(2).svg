@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="xian" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 375 667" style="enable-background:new 0 0 375 667;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#BF6969;stroke-width:21.6667;stroke-opacity:0.4;}
+	.st1{fill:none;stroke:#BFBF69;stroke-width:21.6667;stroke-opacity:0.4;}
+	.st2{fill:none;stroke:#69BF69;stroke-width:21.6667;stroke-opacity:0.4;}
+	.st3{fill:none;stroke:#69BF69;stroke-width:43.3333;stroke-opacity:0.4;}
+	.st4{fill:none;stroke:#69BFBF;stroke-width:21.6667;stroke-opacity:0.4;}
+	.st5{fill:none;stroke:#6969BF;stroke-width:21.6667;stroke-opacity:0.4;}
+	.st6{fill:none;stroke:#BF69BF;stroke-width:21.6667;stroke-opacity:0.4;}
+	.st7{font-family:'ArialMT';}
+	.st8{font-size:10px;}
+	.st9{font-family:'AdobeSongStd-Light-GBpc-EUC-H';}
+</style>
+<g transform="translate(0, 10)">
+	<g>
+		<path class="st0" d="M75.8,652c0-328.5,213.3-328.5,213.3-657"/>
+		<path class="st0" d="M32.5,652c0-328.5,63.3-328.5,63.3-657"/>
+		<path class="st0" d="M10.8,652c0-328.5,10-328.5,10-657"/>
+		<path class="st0" d="M54.2,652c0-328.5,138.3-328.5,138.3-657"/>
+		<path class="st1" d="M129.2,652c0-328.5,85-328.5,85-657"/>
+		<path class="st1" d="M107.5,652c0-328.5-65-328.5-65-657"/>
+		<path class="st1" d="M150.8,652c0-328.5,160-328.5,160-657"/>
+		<path class="st2" d="M182.5,652c0-328.5-118.3-328.5-118.3-657"/>
+		<path class="st3" d="M215,652c0-328.5,128.3-328.5,128.3-657"/>
+		<path class="st4" d="M257.5,652c0-328.5-140-328.5-140-657"/>
+		<path class="st5" d="M289.2,652c0-328.5-150-328.5-150-657"/>
+		<path class="st5" d="M310.8,652c0-328.5-75-328.5-75-657"/>
+		<path class="st6" d="M342.5,652c0-328.5-181.7-328.5-181.7-657"/>
+		<path class="st6" d="M364.2,652c0-328.5-106.7-328.5-106.7-657"/>
+	</g>
+	<g>
+		<g>
+			<rect x="0" y="652" width="86.7" height="5"/>
+			<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 46.8334 646)" class="st7 st8">1PM2.5</text>
+		</g>
+		<g>
+			<rect x="96.7" y="652" width="65" height="5"/>
+			<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 132.6666 646)" class="st7 st8">2PM10</text>
+		</g>
+		<g>
+			<rect x="171.7" y="652" width="65" height="5"/>
+			<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 207.6666 646)" class="st7 st8">3O3</text>
+		</g>
+		<g>
+			<rect x="246.7" y="652" width="21.7" height="5"/>
+			<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 261 646)" class="st7 st8">4SO2</text>
+		</g>
+		<g>
+			<rect x="278.3" y="652" width="43.3" height="5"/>
+			<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 303.5 646)" class="st7 st8">5NO2</text>
+		</g>
+		<g>
+			<rect x="331.7" y="652" width="43.3" height="5"/>
+			<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 356.8334 646)" class="st7 st8">6CO</text>
+		</g>
+		<g>
+			<rect x="85" y="-10" width="86.7" height="5"/>
+			<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 131.8334 16)" class="st9 st8">发电</text>
+		</g>
+		<g>
+			<rect x="278.3" y="-10" width="86.7" height="5"/>
+			<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 325.1666 16)" class="st9 st8">工业</text>
+		</g>
+		<g>
+			<rect x="10" y="-10" width="65" height="5"/>
+			<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 46 16)" class="st9 st8">交通</text>
+		</g>
+		<g>
+			<rect x="181.7" y="-10" width="86.7" height="5"/>
+			<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 228.5 16)" class="st9 st8">居民</text>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,13 +1,12 @@
-var colors = ["#ffebfe", "#ff769a", "#6e6ef8", "#3939C8", "#808080", "#6e6ef8", "#ff769a", "#FFF08E", "#3939C8", "#BA2FB3", "#E9C20F", "#808080","#3939C8","#EA497F"];
+var colors = ["#ffebfe", "#FFD967", "#B5D2EB", "#3939C8", "#808080", "#FFD967", "#B5D2EB", "#FFF08E", "#3939C8", "#BA2FB3", "#E9C20F", "#808080", "#3939C8", "#EA497F"];
 
 // love_period_2(".figure");
 // love_period_transition_2(".figure");
 
-function love_period_2(DivName) { 
+function love_period_2(DivName) {
 
     var love_period_group = d3.nest()
         .key(function (d) {
-            console.log(d);
             return d.standard
         })
         .entries(love_period_data)
@@ -39,21 +38,21 @@ function love_period_2(DivName) {
 
 
     // if (UA.isMobile) {
-        var padding = {
-            left: 5,
-            top: 10,
-            right: 5,
-            bottom: 10,
-        }
-        var love_period_svg_width = $(window).width(),
-            period_width = love_period_svg_width / 3,
-            love_period_svg_margin = 0,
-            period_values = 15,
-            circle_r = Math.floor(period_width - padding.left - padding.right) / period_values,
-            love_period_svg_height = $(window).height();
-            // love_period_svg_height = circle_r*Math.ceil(435/period_values)+padding.top+padding.bottom+padding.bottom*4.5;
+    var padding = {
+        left: 5,
+        top: 10,
+        right: 5,
+        bottom: 10,
+    }
+    var love_period_svg_width = $(window).width(),
+        period_width = love_period_svg_width / 3,
+        love_period_svg_margin = 0,
+        period_values = 15,
+        circle_r = Math.floor(period_width - padding.left - padding.right) / period_values,
+        love_period_svg_height = $(window).height();
+    // love_period_svg_height = circle_r*Math.ceil(435/period_values)+padding.top+padding.bottom+padding.bottom*4.5;
     // } else {
-        
+
     //     var padding = {
     //         left: 5,
     //         top: 10,
@@ -72,167 +71,178 @@ function love_period_2(DivName) {
 
     var svg = d3.select(DivName)
         .append("svg")
-        .attr("width", love_period_svg_width+love_period_svg_margin*2)
+        .attr("width", love_period_svg_width + love_period_svg_margin * 2)
         .attr("height", love_period_svg_height)
-        .attr("class","love_period_svg")
+        .attr("class", "love_period_svg")
         // .style("background","black")
         // .style("pointer-events","none")
         .attr("transform", function (d, i) {
-            return "translate(" + (0) + ", " + (100) + ")"
+            return "translate(" + (0) + ", " + (-160) + ")"
         });
 
     // if(UA.isMobile){
-        d3.select(".love_period_svg")
-            .style("pointer-events","none")
+    d3.select(".love_period_svg")
+        .style("pointer-events", "none")
     // }else{
     //     // d3.select(DivName)
     //     //     .append("div")
     //     //     .attr("class","tooltips_div")
-            
+
     // }
+
+    var cr = (circle_r / 2) * 0.9
+
+    //比例尺
+    var xScale = d3.scaleTime()
+        .domain([0, cr * 2])
+        .range([0, cr * 1.9])
+
+    var yScale = d3.scaleLinear()
+        .domain([0, cr * 2])
+        .range([0, cr * 1.9])
 
 
     for (var i = 0; i < love_period_group.length; i++) {
 
+
         svg.append("g")
             .attr("class", "love_period love_period_" + i)
-            .attr("transform", "translate(" + (window.innerWidth / 2 - circle_r * period_values) + ", " + (0) + ")");
-
+            // .attr("transform", "translate(" + (window.innerWidth / 2 - ( circle_r  * period_values -2 * (circle_r - xScale(cr) * 2)) /2 + ", " + (0) + ")"));
+            .attr("transform", "translate(" + (window.innerWidth / 2 - 71.58 + ", " + (i == 0? 0:-60) + ")"));
 
 
         d3.select(".love_period_" + i)
             .append("g")
             .attr("class", "love_period_circle_g love_period_circle_g_" + i)
-            .attr("transform", "translate(" + (padding.left) + ", " + (0) + ")");
+            .attr("transform", "translate(" + (-10) + ", " + (0) + ")");
 
 
-        //填充icon
-        // if(UA.isMobile){
-            //image 加图 svg (append特殊用法)
-            d3.select(".love_period_" + i)
-                .append("svg:image")
-                .attr("class", "love_period_img love_period_img_" + i)
-                .attr("xlink:href", "./assets/love_period_"+i+".svg")
-                .attr("width", period_width*0.7+"px")
-                .attr("height",padding.bottom*2+"px")
-                .attr("x",period_width*0.15)
-                .attr("y",love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r)-padding.bottom*4)
-                .style("opacity",0)
+        // //填充icon
+        // // if(UA.isMobile){
+        // //image 加图 svg (append特殊用法)
+        // d3.select(".love_period_" + i)
+        //     .append("svg:image")
+        //     .attr("class", "love_period_img love_period_img_" + i)
+        //     .attr("xlink:href", "./assets/love_period_" + i + ".svg")
+        //     .attr("width", period_width * 0.7 + "px")
+        //     .attr("height", padding.bottom * 2 + "px")
+        //     .attr("x", period_width * 0.15)
+        //     .attr("y", love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r) - padding.bottom * 4)
+        //     .style("opacity", 0)
 
-            //text 加文字
-            d3.select(".love_period_" + i)
-                .append("text")
-                .attr("class", "love_period_values love_period_values_" + i)
-                .attr("fill", function(d){
-                    if(i!=2){
-                        return colors[5 + (i)]
-                    }else{
-                        return colors[8 + (i)]
-                    }
-                })
-                .style("font-size", "12px")
-                // .attr("font-weight", "blod")
-                // .attr("stroke", function(d){
-                //     if(i!=2){
-                //         return colors[5 + (i)]
-                //     }else{
-                //         return colors[8 + (i)]
-                //     }
-                // })
-                // .attr("stroke-width", 1)
-                .style("font-style","italic")
-                .text(love_period_group[i].values.length)
-                // .attr("text-anchor", "start")
-                .attr("text-anchor", "middle")
-                .attr("dominant-baseline", "middle")
-                // .attr("transform", "translate(" + (period_width / 2) + ", " + (-20) + ")")
-                // // .style("opacity",0)
-                // .transition()
-                // .duration(800)
-                // .delay(200 * Math.floor(love_period_group[1].values.length % period_values) + Math.floor(love_period_group[1].values.length / period_values) * period_values)
-                // // .style("opacity",1)
-                // .attr("transform", "translate(" + (love_period_group[i].values.length % period_values * circle_r + circle_r*1.2) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r) ) + ")")
-                .attr("transform", "translate(" + (period_width / 2) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r + padding.bottom) ) + ")")
-                .style("opacity",0);
-        // }else{
-        //     d3.select(".love_period_" + i)
-        //         .append("svg:image")
-        //         .attr("class", "love_period_img love_period_img_" + i)
-        //         .attr("xlink:href", "./assets/love_period_"+i+".svg")
-        //         .attr("width", period_width*0.7+"px")
-        //         .attr("height",padding.bottom+"px")
-        //         .attr("x",period_width*0.15)
-        //         .attr("y",love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r)-padding.bottom*1.3)
-        //         .style("opacity",0)   
-                
-        //     d3.select(".love_period_" + i)
-        //         .append("text")
-        //         .attr("class", "love_period_values love_period_values_" + i)
-        //         .attr("fill", function(d){
-        //             if(i!=2){
-        //                 return colors[5 + (i)]
-        //             }else{
-        //                 return colors[8 + (i)]
-        //             }
-        //         })
-        //         .style("font-size", "12px")
-        //         // .attr("font-weight", "blod")
-        //         // .attr("stroke", function(d){
-        //         //     if(i!=2){
-        //         //         return colors[5 + (i)]
-        //         //     }else{
-        //         //         return colors[8 + (i)]
-        //         //     }
-        //         // })
-        //         // .attr("stroke-width", 1)
-        //         .style("font-style","italic")
-        //         .text(love_period_group[i].values.length)
-        //         // .attr("text-anchor", "start")
-        //         .attr("text-anchor", "middle")
-        //         .attr("dominant-baseline", "middle")
-        //         // .attr("transform", "translate(" + (period_width / 2) + ", " + (-20) + ")")
-        //         // // .style("opacity",0)
-        //         // .transition()
-        //         // .duration(800)
-        //         // .delay(200 * Math.floor(love_period_group[1].values.length % period_values) + Math.floor(love_period_group[1].values.length / period_values) * period_values)
-        //         // // .style("opacity",1)
-        //         // .attr("transform", "translate(" + (love_period_group[i].values.length % period_values * circle_r + circle_r*1.2) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r) ) + ")")
-        //         .attr("transform", "translate(" + (period_width / 2) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r + padding.bottom*0.3) ) + ")")
-        //         .style("opacity",0);
-        // }
+        // //text 加文字
+        // d3.select(".love_period_" + i)
+        //     .append("text")
+        //     .attr("class", "love_period_values love_period_values_" + i)
+        //     .attr("fill", function (d) {
+        //         if (i != 2) {
+        //             return colors[5 + (i)]
+        //         } else {
+        //             return colors[8 + (i)]
+        //         }
+        //     })
+        //     .style("font-size", "12px")
+        //     // .attr("font-weight", "blod")
+        //     // .attr("stroke", function(d){
+        //     //     if(i!=2){
+        //     //         return colors[5 + (i)]
+        //     //     }else{
+        //     //         return colors[8 + (i)]
+        //     //     }
+        //     // })
+        //     // .attr("stroke-width", 1)
+        //     .style("font-style", "italic")
+        //     .text(love_period_group[i].values.length)
+        //     // .attr("text-anchor", "start")
+        //     .attr("text-anchor", "middle")
+        //     .attr("dominant-baseline", "middle")
+        //     // .attr("transform", "translate(" + (period_width / 2) + ", " + (-20) + ")")
+        //     // // .style("opacity",0)
+        //     // .transition()
+        //     // .duration(800)
+        //     // .delay(200 * Math.floor(love_period_group[1].values.length % period_values) + Math.floor(love_period_group[1].values.length / period_values) * period_values)
+        //     // // .style("opacity",1)
+        //     // .attr("transform", "translate(" + (love_period_group[i].values.length % period_values * circle_r + circle_r*1.2) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r) ) + ")")
+        //     .attr("transform", "translate(" + (period_width / 2) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r + padding.bottom)) + ")")
+        //     .style("opacity", 0);
+        // // }else{
+        // //     d3.select(".love_period_" + i)
+        // //         .append("svg:image")
+        // //         .attr("class", "love_period_img love_period_img_" + i)
+        // //         .attr("xlink:href", "./assets/love_period_"+i+".svg")
+        // //         .attr("width", period_width*0.7+"px")
+        // //         .attr("height",padding.bottom+"px")
+        // //         .attr("x",period_width*0.15)
+        // //         .attr("y",love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r)-padding.bottom*1.3)
+        // //         .style("opacity",0)   
 
-            // .attr("y",love_period_svg_height - padding.bottom*0.6 - padding.bottom*0.25);
-        
+        // //     d3.select(".love_period_" + i)
+        // //         .append("text")
+        // //         .attr("class", "love_period_values love_period_values_" + i)
+        // //         .attr("fill", function(d){
+        // //             if(i!=2){
+        // //                 return colors[5 + (i)]
+        // //             }else{
+        // //                 return colors[8 + (i)]
+        // //             }
+        // //         })
+        // //         .style("font-size", "12px")
+        // //         // .attr("font-weight", "blod")
+        // //         // .attr("stroke", function(d){
+        // //         //     if(i!=2){
+        // //         //         return colors[5 + (i)]
+        // //         //     }else{
+        // //         //         return colors[8 + (i)]
+        // //         //     }
+        // //         // })
+        // //         // .attr("stroke-width", 1)
+        // //         .style("font-style","italic")
+        // //         .text(love_period_group[i].values.length)
+        // //         // .attr("text-anchor", "start")
+        // //         .attr("text-anchor", "middle")
+        // //         .attr("dominant-baseline", "middle")
+        // //         // .attr("transform", "translate(" + (period_width / 2) + ", " + (-20) + ")")
+        // //         // // .style("opacity",0)
+        // //         // .transition()
+        // //         // .duration(800)
+        // //         // .delay(200 * Math.floor(love_period_group[1].values.length % period_values) + Math.floor(love_period_group[1].values.length / period_values) * period_values)
+        // //         // // .style("opacity",1)
+        // //         // .attr("transform", "translate(" + (love_period_group[i].values.length % period_values * circle_r + circle_r*1.2) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r) ) + ")")
+        // //         .attr("transform", "translate(" + (period_width / 2) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r + padding.bottom*0.3) ) + ")")
+        // //         .style("opacity",0);
+        // // }
 
-        
+        // // .attr("y",love_period_svg_height - padding.bottom*0.6 - padding.bottom*0.25);
+
+
+
 
         //g circle集
 
         for (var j = 0; j < love_period_group[i].values.length; j++) {
 
-            // console.log(j)
 
-            
             //每个bar建组
             d3.select(".love_period_circle_g_" + i)
                 .append("g")
-                .attr("class", "love_period_circle_"+i +" love_period_circle_"+i +"_" + j)
-                .attr("transform", "translate(" + (j % period_values * circle_r) + ", " + (-circle_r) + ")")
-                // // .attr("transform","translate(" + (period_width/2) + ", " + (-circle_r) + ")")
-                // .transition()
-                // .duration(800 + Math.random() * 100) //加速版
-                // // .duration(800)//正常速度
-                // // .easeBounce()
-                // // .ease(d3.easeBounceOut)
-                // // .delay(j*100)
-                // .delay(200 * Math.floor(j % period_values) + Math.floor(j / period_values) * period_values)
-                // .attr("transform", "translate(" + (j % period_values * circle_r + circle_r / 4) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(j / period_values) * circle_r)) + ")")
+                .attr("class", "love_period_circle_" + i + " love_period_circle_" + i + "_" + j)
+                // .attr("transform", "translate(" + (j % period_values * circle_r) + ", " + (-circle_r) + ")")
+                .attr("transform", "translate(" + (0) + ", " + (-circle_r) + ")")
+            // // .attr("transform","translate(" + (period_width/2) + ", " + (-circle_r) + ")")
+            // .transition()
+            // .duration(800 + Math.random() * 100) //加速版
+            // // .duration(800)//正常速度
+            // // .easeBounce()
+            // // .ease(d3.easeBounceOut)
+            // // .delay(j*100)
+            // .delay(200 * Math.floor(j % period_values) + Math.floor(j / period_values) * period_values)
+            // .attr("transform", "translate(" + (j % period_values * circle_r + circle_r / 4) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(j / period_values) * circle_r)) + ")")
 
-            
-            
+
+
             //画circle
             // if(!UA.isMobile){
-                
+
             //     circle(".love_period_circle_g_" + i,(circle_r / 2) * 0.8,"love_period_circle_"+i +"_" + j,colors[5 + (i )],colors[8 + (i)])
 
 
@@ -250,7 +260,7 @@ function love_period_2(DivName) {
             //             // console.log($(this).parent().attr("class").split("_")[7])
             //             // console.log($(this).attr("class").split("_")[5]) d d
             //             // console.log(period_id)
-                            
+
             //             //获取当前鼠标定位
             //             // var mouseX = d3.mouse(this)[0];
             //             // var mouseY = d3.mouse(this)[1];
@@ -275,7 +285,7 @@ function love_period_2(DivName) {
             //             if(love_period_tooltips_left<90){
             //                 var love_period_tooltips_g_left = 95
             //             }
-                            
+
             //             if(love_period_tooltips_left>575){
             //                 var love_period_tooltips_g_left = 575
             //             }
@@ -314,19 +324,19 @@ function love_period_2(DivName) {
             //                 })
 
 
-                        
+
             //             // d3.selectAll(".love_period_svg")
             //             //     .select(".tooltips_g") 
             //             //     .select("text")
             //             //     .text([])
-                            
+
             //             var t_text;
             //             var love_period_tooltips_text_num = Math.floor((period_width*0.9 -10)/14)
 
             //             var love_period_tooltips_title_data = [];
-                        
+
             //             var love_period_tooltips_text_col = 0;
-                        
+
             //             // console.log(tooltips_text_num)
 
             //             for(var t = 0; t<Math.ceil(love_period_group[period_id].values[circle_id].titles.length/love_period_tooltips_text_num);t++){
@@ -368,7 +378,7 @@ function love_period_2(DivName) {
             //                 .text(function(d){return d})
 
 
-            
+
             //         })
             //         .on("mouseout",function(){
 
@@ -381,21 +391,28 @@ function love_period_2(DivName) {
 
             //     //样式待定
             // }else{
-                 //画circle 手机版
-                circle(".love_period_circle_g_" + i,(circle_r / 2) * 0.9,"love_period_circle_"+i +"_" + j,colors[5 + (i )],colors[8 + (i)])
+            //画circle 手机版
+            var PM25 = love_period_group[i].values[j].PM25;
+            var PM10 = love_period_group[i].values[j].PM10;
+            var O3 = love_period_group[i].values[j].O3;
+            var SO2 = love_period_group[i].values[j].SO2;
+            var NO2 = love_period_group[i].values[j].NO2;
+            var CO = love_period_group[i].values[j].CO;
+
+            circle(".love_period_circle_g_" + i, (circle_r / 2) * 0.9, "love_period_circle_" + i + "_" + j, colors[5 + (i)], colors[8 + (i)],PM25, PM10, O3, SO2,NO2,CO)
             // }
 
-            
+
 
         }
 
     }
 
-    
+
 }
 
 
-function love_period_transition_2(){
+function love_period_transition_2() {
 
     // var padding = {
     //     left: 10,
@@ -422,19 +439,19 @@ function love_period_transition_2(){
 
 
     // if (UA.isMobile) {
-        var padding = {
-            left: 5,
-            top: 10,
-            right: 5,
-            bottom: 10,
-        }
-        var love_period_svg_width = $(window).width(),
-            period_width = love_period_svg_width / 2.3,
-            period_values = 15,
-            circle_r = Math.floor(period_width - padding.left - padding.right) / period_values,
-            love_period_svg_height = circle_r*Math.ceil(435/period_values)+padding.top+padding.bottom+padding.bottom*4.5;
+    var padding = {
+        left: 5,
+        top: 10,
+        right: 5,
+        bottom: 10,
+    }
+    var love_period_svg_width = $(window).width(),
+        period_width = love_period_svg_width / 2.3,
+        period_values = 15,
+        circle_r = Math.floor(period_width - padding.left - padding.right) / period_values,
+        love_period_svg_height = circle_r * Math.ceil(435 / period_values) + padding.top + padding.bottom + padding.bottom * 4.5;
     // } else {
-        
+
     //     var padding = {
     //         left: 5,
     //         top: 10,
@@ -451,7 +468,6 @@ function love_period_transition_2(){
 
     var love_period_group = d3.nest()
         .key(function (d) {
-            console.log(d);
             return d.standard
         })
         .entries(love_period_data)
@@ -471,28 +487,27 @@ function love_period_transition_2(){
     //     return d.key == "前" || d.key == "中" || d.key == "后"
     // });
     for (var i = 0; i < love_period_group.length; i++) {
-        console.log((love_period_group[i]));
         var min = 500;
         var max = 0;
         var values = love_period_group[i].values;
-        values.forEach( d => {
-            if(d.no > max) max = d.no;
-            if(d.no < min) min = d.no;
+        values.forEach(d => {
+            if (d.no > max) max = d.no;
+            if (d.no < min) min = d.no;
         });
-        
+
         love_period_group[i].min = min;
         love_period_group[i].max = max;
         love_period_group[i].num = max - min + 1;
-        
+
         d3.select(".love_period_values_" + i)
             // .attr("transform", "translate(" + (period_width / 2) + ", " + (-20) + ")")
             // .style("opacity",0)
             .transition()
             .duration(800)
-            .delay(200 * Math.floor(love_period_group[1].values.length % period_values) + Math.floor(love_period_group[1].values.length / period_values) * period_values+120*period_values)
-            .style("opacity",0.5)
+            .delay(200 * Math.floor(love_period_group[1].values.length % period_values) + Math.floor(love_period_group[1].values.length / period_values) * period_values + 120 * period_values)
+            .style("opacity", 0.5)
             // .attr("transform", "translate(" + (period_width / 2) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r) - 10) + ")");   
-            .attr("transform", "translate(" + (period_width / 2) + ", " + (love_period_svg_height- (Math.floor(love_period_group[i].values.length / period_values) * circle_r *2) - 10) + ")" + ")");   
+            .attr("transform", "translate(" + (period_width / 2) + ", " + (love_period_svg_height - (Math.floor(love_period_group[i].values.length / period_values) * circle_r * 2) - 10) + ")" + ")");
         // d3.select(".love_period_img_" + i)
         //     .transition()
         //     .duration(800)
@@ -500,7 +515,7 @@ function love_period_transition_2(){
         //     .style("opacity",1)        
 
         for (var j = 0; j < love_period_group[i].values.length; j++) {
-            d3.select(".love_period_circle_"+i +"_" + j)
+            d3.select(".love_period_circle_" + i + "_" + j)
                 .attr("transform", "translate(" + (j % period_values * circle_r) + ", " + (-circle_r) + ")")
                 // .attr("transform","translate(" + (period_width/2) + ", " + (-circle_r) + ")")
                 .transition()
@@ -511,12 +526,12 @@ function love_period_transition_2(){
                 // .delay(j*100)
                 .delay(200 * Math.floor(j % period_values) + Math.floor(j / period_values) * period_values)
                 // .attr("transform", "translate(" + (j % period_values * circle_r) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(j / period_values) * circle_r)) + ")")
-                .attr("transform", "translate(" + ( j % period_values * circle_r + circle_r / 4) + ", " + (i * 200 + love_period_svg_height - padding.top - padding.bottom - (Math.floor(j / period_values) * circle_r)) + ")")
+                .attr("transform", "translate(" + (j % period_values * circle_r) + ", " + (i * 250 + love_period_svg_height - padding.top - padding.bottom - (Math.floor(j / period_values) * circle_r)) + ")")
         }
 
     }
     // for (var i = 0; i < love_period_group.length; i++) {
-        
+
     //     // d3.select(".love_period_values_" + i)
     //     //     // .attr("transform", "translate(" + (period_width / 2) + ", " + (-20) + ")")
     //     //     // .style("opacity",0)
@@ -525,7 +540,7 @@ function love_period_transition_2(){
     //     //     .delay(200 * Math.floor(love_period_group[1].values.length % period_values) + Math.floor(love_period_group[1].values.length / period_values) * period_values+120*period_values)
     //     //     .style("opacity",0.5)
     //     //     // .attr("transform", "translate(" + (period_width / 2) + ", " + (love_period_svg_height - padding.top - padding.bottom - (Math.floor(love_period_group[i].values.length / period_values) * circle_r) - 10) + ")");   
-            
+
     //     // d3.select(".love_period_img_" + i)
     //     //     .transition()
     //     //     .duration(800)
@@ -556,17 +571,20 @@ function love_period_transition_2(){
 }
 
 // circle(需要绑定的夫元素,半径,圆的class_g,填充颜色,描边颜色)
-function circle(DivName,cr,className,fill_color,stroke_color){
+function circle(DivName, cr, className, fill_color, stroke_color, PM25, PM10, O3, SO2, NO2, CO) {
+    console.log(fill_color)
+    // console.log('circle');
+    // console.log('PM25:'+PM25);
 
 
     //比例尺
     var xScale = d3.scaleTime()
-        .domain([0,cr*2])
-        .range([0, cr*1.9])
+        .domain([0, cr * 2])
+        .range([0, cr * 1.9])
 
     var yScale = d3.scaleLinear()
-        .domain([0, cr*2])
-        .range([0, cr*1.9])
+        .domain([0, cr * 2])
+        .range([0, cr * 1.9])
 
 
     // var r = 15;
@@ -591,31 +609,30 @@ function circle(DivName,cr,className,fill_color,stroke_color){
     // }
     var new_x = cx - cr;
     var new_y = cy - cr;
-    circle_data.push([new_x,new_y])
+    circle_data.push([new_x, new_y])
 
     new_x = cx + cr;
     new_y = cy - cr;
-    circle_data.push([new_x,new_y])
+    circle_data.push([new_x, new_y])
 
     new_x = cx + cr;
     new_y = cy + cr;
-    circle_data.push([new_x,new_y])
+    circle_data.push([new_x, new_y])
 
     new_x = cx - cr;
     new_y = cy + cr;
-    circle_data.push([new_x,new_y])
+    circle_data.push([new_x, new_y])
 
-    console.log(circle_data);
 
-    function drawlineRadial(ctx){
-        var data=drawlineRadial.data;
-        ctx.translate(250,250)
-        var lineRadial=d3.lineRadial();
+    function drawlineRadial(ctx) {
+        var data = drawlineRadial.data;
+        ctx.translate(250, 250)
+        var lineRadial = d3.lineRadial();
         lineRadial.context(ctx);
-        lineRadial.angle(function(d){
+        lineRadial.angle(function (d) {
             return d[0]
         });
-        lineRadial.radius(function(d){
+        lineRadial.radius(function (d) {
             return d[1]
         })
         ctx.beginPath();
@@ -626,56 +643,57 @@ function circle(DivName,cr,className,fill_color,stroke_color){
     // drawlineRadial.data=d3.zip(d3.range(0,Math.PI*2,Math.PI*2/36),d3.range(0,100,100/36).map(function(){
     //      return 50;
     // }));
-    drawlineRadial.data=d3.zip(d3.ticks(0,Math.PI*2,3),d3.ticks(0,Math.PI*2,3).map(function(){
-         return 50;
+    drawlineRadial.data = d3.zip(d3.ticks(0, Math.PI * 2, 3), d3.ticks(0, Math.PI * 2, 3).map(function () {
+        return 50;
     }));
- //   drawlineRadial.data=[[0,100],[Math.PI/6,100],[Math.PI/5,100],[Math.PI/4,100],[Math.PI/3,100],[Math.PI/2,100],[Math.PI,100]];
-    drawlineRadial.svg=function(svg){
-        var data=drawlineRadial.data;
-        var lineRadial=d3.lineRadial();
-        lineRadial.angle(function(d){
+    //   drawlineRadial.data=[[0,100],[Math.PI/6,100],[Math.PI/5,100],[Math.PI/4,100],[Math.PI/3,100],[Math.PI/2,100],[Math.PI,100]];
+    drawlineRadial.svg = function (svg) {
+        var data = drawlineRadial.data;
+        var lineRadial = d3.lineRadial();
+        lineRadial.angle(function (d) {
             return d[0]
         });
-        lineRadial.radius(function(d){
+        lineRadial.radius(function (d) {
             return d[1]
         })
-        svg.append('g').attr('transform','translate(250,250)').append('path').attr('fill','none').attr('stroke','#000').attr('d',lineRadial(data))
+        svg.append('g').attr('transform', 'translate(250,250)').append('path').attr('fill', 'none').attr('stroke', '#000').attr('d', lineRadial(data))
     }
     // 顺序从x1 y1 再倒序从x y
-    function drawArea(ctx){
-        var area=d3.area().context(ctx);
-        var x=area.x(function(v){
+    function drawArea(ctx) {
+        var area = d3.area().context(ctx);
+        var x = area.x(function (v) {
             return v[2];
         })
-       var y= area.y(function(v){
+        var y = area.y(function (v) {
             return v[3];
         });
-        var x2=area.x1(function(v){
+        var x2 = area.x1(function (v) {
             return v[0];
         })
-       var y2= area.y1(function(v){
+        var y2 = area.y1(function (v) {
             return v[1];
         });
-        var data=[[100,100,200,150],[200,100,100,150]];
+        var data = [
+            [100, 100, 200, 150],
+            [200, 100, 100, 150]
+        ];
         ctx.beginPath();
-        ctx.fillStyle='red';
+        ctx.fillStyle = 'red';
         // 当前存
         area(data);
         ctx.stroke();
-       // ctx.fill();
+        // ctx.fill();
     }
 
     var linePath = d3.line()
-    .x(function(d){
-        // console.log("d0:"+d[0]);
-        console.log("d0:"+xScale(d[0]));
-        return xScale(d[0]);
-    })
-    .y(function(d){
-        // console.log("d1:"+d[1]);
-        console.log("d1:"+xScale(d[1]));
-        return xScale(d[1]);
-    });
+        .x(function (d) {
+            // console.log("d0:"+d[0]);
+            return xScale(d[0]);
+        })
+        .y(function (d) {
+            // console.log("d1:"+d[1]);
+            return xScale(d[1]);
+        });
     // .curve(d3.curveLinear)
 
 
@@ -693,15 +711,18 @@ function circle(DivName,cr,className,fill_color,stroke_color){
     //     .append("g") 
     //     .attr("class",className+" "+className+"_"+circle_id)
 
+    // className += ' PM25_' + PM25;
 
-    d3.select(DivName).select("."+className)
+    // console.log('className:'+className)
+    
+    d3.select(DivName).select("." + className)
         .append("path")
-        .attr("transform",function (d,i) { 
-            return  "translate(" + (0) + "," + (0) + ")";
-         })
-        .attr("d",linePath(circle_data))
-        .attr("class","circle_fill "+className+"_fill")
-        .attr("fill",fill_color);
+        .attr("transform", function (d, i) {
+            return "translate(" + (0) + "," + (0) + ")";
+        })
+        .attr("d", linePath(circle_data))
+        .attr("class", "circle_fill " + className + "_fill" + ' PM25_' + PM25  + ' PM10_' + PM10 + ' O3_' + O3 + ' SO2_' + SO2+ ' NO2_' + NO2+ ' CO_' + CO)
+        .attr("fill", fill_color);
 
     // d3.select(DivName).select("."+className)
     //     .append("path")
@@ -714,6 +735,6 @@ function circle(DivName,cr,className,fill_color,stroke_color){
     //     .style("stroke-width", 0.5)
 
 
-    
-    
+
+
 }
