@@ -58,17 +58,17 @@ window.onload = ()=>{
         
             // let html = group.values.reduce((html, d)=>{
                 // let path = `assets/files/publications/${d.type.toLowerCase()}/${d.title.replace(/\s/g, '-').replace(/:/g, '').toLowerCase()}`;
-                let path = `assets/pubs/${d.folder}`;
+                // let path = `assets/pubs/${d.folder}`;
                 let html = `<div class='pub'>
                     <div class='pub-teaser'
-                        style='background-image:url(${path}/teaser.png);'>
+                        style='background-image:url(assets/pubs/${d.png});'>
                     </div>
                     <div class='pub-detail'>
                         <div class='pub-title'><strong>${d.title}</strong></div>
                         <div class='pub-authors'>${d.authors.replace('Yang Shi', '<strong>Yang Shi</strong>')}</div>
                         <div class='pub-publisher'>${d.publisher}</div>
                         <div class='pub-materials'>
-                            ${renderPubMaterials(d.materials, path)}
+                        ${renderPubMaterials(d.materials)}
                         </div>
 
                     </div>
@@ -90,13 +90,13 @@ window.onload = ()=>{
             container.appendChild(elem);
         });
 
-    function renderPubMaterials(d, path){
+    function renderPubMaterials(d){
         // let path = `/files/publications/${group.key.toLowerCase()}/${d.title.replace(/\s/g, '-').replace(/:/g, '').toLowerCase()}`;
         let generate = (icon, link, label)=>`<div class='item'>
             <i class="${icon}"></i>
             <a href='${link}' target='_blank'>${label}</a>
         </div>`
-        let html = generate('far fa-file-alt', `${path}/paper.pdf`, 'Paper');
+        let html = generate('far fa-file-alt', `assets/pubs/${d.pdf}`, 'Paper');
         // if (d.website!=''){
         //     html+= generate('fas fa-globe', d.website, 'WEBSITE');
         // }
@@ -120,7 +120,7 @@ window.onload = ()=>{
         if (d.video!=undefined){
             // html+= generate('fas fa-video', d.video.startsWith('http')?d.video:`${path}/video.mp4`, 'VIDEO');
             html += "|&nbsp;&nbsp;"
-            html += generate('fas fa-video', `${path}/video.mp4`, 'Video');
+            html += generate('fas fa-video', `assets/pubs/${d.video}`, 'Video');
         }
         // if (d.software!=''){
         //     html+= generate('fas fa-desktop', d.software, 'SOFTWARE');
