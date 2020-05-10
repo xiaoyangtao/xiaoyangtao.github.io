@@ -2,8 +2,7 @@ window.onload = ()=>{
     let allPubs = data.publications;
     let filter = document.querySelector('.selected');
     // let filter = document.getElementsByClassName('selected');
-    console.log('filter');
-    console.log(filter);
+
     // let dataCond = filter.getAttribute('data-cond');
     let dataCond = filter.dataset.cond;
     renderPubs(allPubs, dataCond);
@@ -46,8 +45,6 @@ window.onload = ()=>{
 
         // let container = document.querySelector('.pubs');
         let container = document.getElementById('pubs');
-        console.log('container');
-        console.log(container);
         container.innerHTML='';
 
         var last_year=0;
@@ -83,10 +80,6 @@ window.onload = ()=>{
             }
             last_year = d.year;
             elem.classList.add('pub-group');
-            console.log('container');
-            console.log(container);
-            console.log('elem');
-            console.log(elem);
             container.appendChild(elem);
         });
 
@@ -138,7 +131,6 @@ window.onload = ()=>{
             let selected = document.querySelector('.chip.selected');
             selected.classList.remove('selected');
             this.classList.add('selected');   
-            console.log('filter', this.dataset.cond);
             dataCond = this.dataset.cond;
             renderPubs(allPubs, dataCond);
         }
