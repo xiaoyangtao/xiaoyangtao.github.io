@@ -1,15 +1,13 @@
 data = {
-	"news": [{
-			"text": "Named on Forbes 30 Under 30 China list (science) in 2019.",
-			"link": "http://www.baidu.com"
+	"news": [
+		{
+			"text": "Named on Forbes 30 Under 30 China list (science) in 2019."
 		},
 		{
-			"text": "Serves as a Poster chair of PacificVis 2020.",
-			"link": "http://www.baidu.com"
+			"text": "Serves as one of the Poster Chair of PacificVis 2020."
 		},
 		{
-			"text": "Recipient of the Young Scientists Fund (2019-2021) by the National Natural Science Foundation of China.",
-			"link": "http://www.baidu.com"
+			"text": "Recipient of the Young Scientists Fund (2019-2021) by the National Natural Science Foundation of China."
 		}
 	],
 	"students": [{
