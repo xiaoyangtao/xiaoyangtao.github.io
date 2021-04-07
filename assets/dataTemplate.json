@@ -31,7 +31,7 @@ data = {
 			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis2020)",
 			"materials": {
 				"pdf": "2021TVCG_Shi_Calliope.pdf",
-				"video": "2020CHI_Shi_EmoG.mp4"
+				// "video": "2020CHI_Shi_EmoG.mp4"
 			},
 			"year": 2021,
 			"featured": "",
