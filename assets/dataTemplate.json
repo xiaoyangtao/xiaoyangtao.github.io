@@ -7,7 +7,7 @@ data = {
 			"text": "Named on Forbes 30 Under 30 China list (science) in 2019."
 		},
 		{
-			"text": "Serves as one of the Poster Chair of PacificVis 2020."
+			"text": "Serves as one of the Poster Chairs of PacificVis 2020."
 		},
 		{
 			"text": "Recipient of the Young Scientists Fund (2019-2021) by the National Natural Science Foundation of China."
@@ -26,18 +26,31 @@ data = {
 	]
 	}],
 	"publications": [{
+			"title": "EcoLens: Visual Analysis of Ecological Regions in Urban Contexts Using Traffic Data",
+			"authors": "Zhuochen Jin, Nan Cao, Yang Shi, Wenchao Wu, Yingcai Wu",
+			"publisher": "Journal of Visualization (ChinaVis2020)",
+			"materials": {
+				"pdf": "2021JOV_Jin_Ecolens.pdf",
+			},
+			"year": 2020,
+			"featured": "",
+			"award": "ChinaVis2020 Best Paper Award",
+			"type": "journal",
+			"png": "2021JOV_Jin_Ecolens.png"
+		},
+		{
 			"title": "Calliope: Automatic Visual Data Story Generation from a Spreadsheet",
 			"authors": "Danqing Shi, Xinyue Xu, Fuling Sun, Yang Shi, Nan Cao",
 			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis2020)",
 			"materials": {
-				"pdf": "2021TVCG_Shi_Calliope.pdf",
+				"pdf": "2020TVCG_Shi_Calliope.pdf",
 				// "video": "2020CHI_Shi_EmoG.mp4"
 			},
-			"year": 2021,
+			"year": 2020,
 			"featured": "",
 			"award": "",
 			"type": "journal",
-			"png": "2021TVCG_Shi_Calliope.png"
+			"png": "2020TVCG_Shi_Calliope.png"
 		},
 		{
 			"title": "EmoG: Supporting the Sketching of Emotional Expressions for Storyboarding",
@@ -82,7 +95,7 @@ data = {
 		{
 			"title": "Task-Oriented Optimal Sequencing of Visualization Charts",
 			"authors": "Danqing Shi, Yang Shi, Xinyue Xu, Nan Chen, Siwei Fu, Hongjin Wu, Nan Cao",
-			"publisher": "In Symposium on Visualization in Data Science (VDS) at IEEE VIS",
+			"publisher": "In Symposium on Visualization in Data Science at IEEE VIS",
 			"materials": {
 				"pdf": "2019_VDS_Shi_Task.pdf"
 			},
@@ -100,7 +113,7 @@ data = {
 				"pdf": "2018AAAI_Cao_AISketcher.pdf"
 			},
 			"year": 2019,
-			"featured": "yes",
+			"featured": "no",
 			"award": "",
 			"type": "conference",
 			"png": "2018AAAI_Cao_AISketcher.png"
@@ -173,7 +186,7 @@ data = {
 		{
 			"title": "Dimension Reconstruction for Visual Exploration of Subspace Clusters in High-dimensional Data",
 			"authors": "Fangfang Zhou, Juncai Li, Wei Huang, Ying Zhao, Xiaoru Yuan, Xing Liang, Yang Shi",
-			"publisher": "IEEE Pacific Visualization Symposium (PacificVis) 2016",
+			"publisher": "IEEE Pacific Visualization 2016",
 			"materials": {
 				"pdf": "2016PacificVis_Zhou_Dimension.pdf"
 			},
@@ -196,34 +209,10 @@ data = {
 			"type": "journal",
 			"png": "2015CGA_Zhou_EnTVis.png"
 		},
-		// {
-		// 	"title": "IDSPlanet: A Novel Radial Visualization of Intrusion Detection Alerts",
-		// 	"authors": "Yang Shi, Yaoxue Zhang, Fangfang Zhou, Ying Zhao, Guojun Wang, Ronghua Shi, Xing Liang",
-		// 	"publisher": "VINCI 2016 - 9th International Symposium on Visual Information Communication and Interaction",
-		// 	"materials": {},
-		// 	"year": 2016,
-		// 	"featured": "no",
-		// 	"award": "",
-		// 	"type": "conference",
-		// 	"pdf": "IDSPlanet"
-		// },
-		// {
-		// 	"title": "Celestia: a vocal interaction music game",
-		// 	"authors": "Cheng Yang, Yang Shi",
-		// 	"publisher": "ACM SIGGRAPH 2013 Poster",
-		// 	"materials": {
-		// 		"pdf": "2013CHI_Shi_Celestia.pdf"
-		// 	},
-		// 	"year": 2013,
-		// 	"featured": "no",
-		// 	"award": "ACM SIGCHI 2013 Student Game Competition",
-		// 	"type": "conference",
-		// 	"png": "2013CHI_Shi_Celestia.png"
-		// },
 		{
 			"title": "Celestia: A vocal interaction music game",
 			"authors": "Yang Shi, Cheng Yang",
-			"publisher": "CHI '13 Extended Abstracts on Human Factors in Computing Systems, ACM SIGCHI 2013 Student Game Competition Top 3",
+			"publisher": "CM SIGCHI Extended Abstracts on Human Factors in Computing Systems 2013",
 			"materials": {
 				"pdf": "2013CHI_Shi_Celestia.pdf"
 			},
