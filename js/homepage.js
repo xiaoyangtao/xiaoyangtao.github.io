@@ -63,13 +63,19 @@ window.onload = ()=>{
                     <div class='pub-detail'>
                         <div class='pub-title'><strong>${d.title}</strong></div>
                         <div class='pub-authors'>${d.authors.replace('Yang Shi', '<strong>Yang Shi</strong>')}</div>
-                        <div class='pub-publisher'>${d.publisher}</div>
+                        <div class='pub-publisher'>
+                        <span class="badge badge-pill badge-hkust">${d.pubsub}</span>
+                        ${d.publisher}
+                        </div>
+                        <i class="fas pub-icon fa-${d.awardicon}"></i>
+                        <div class="pub-award" style="line-height:2">${d.award}</div>
                         <div class='pub-materials'>
                         ${renderPubMaterials(d.materials)}
                         </div>
 
                     </div>
-                </div>`;
+                </div>
+                `;
             // }, '');
             let elem = document.createElement('div');
             if(d.year!=last_year){
@@ -113,7 +119,8 @@ window.onload = ()=>{
         if (d.video!=undefined){
             // html+= generate('fas fa-video', d.video.startsWith('http')?d.video:`${path}/video.mp4`, 'VIDEO');
             html += "|&nbsp;&nbsp;"
-            html += generate('fas fa-video', `assets/pubs/${d.video}`, 'Video');
+            // html += generate('fas fa-video', `assets/pubs/${d.video}`, 'Video');
+            html += generate('fas fa-video', `${d.video}`, 'Video');
         }
         // if (d.software!=''){
         //     html+= generate('fas fa-desktop', d.software, 'SOFTWARE');
