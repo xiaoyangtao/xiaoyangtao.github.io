@@ -2327,7 +2327,16 @@ a:hover {
   margin-bottom: 0px;
   color: #013e7d;
   font-weight: 600;
-  margin-left: 150px;
+  margin-left: 140px;
+  /* padding-left: 15px; */
+}
+
+.pub-detail{
+  width:100%;
+  margin-left:20px;
+  /* height:100%; */
+  /* position: relative;
+  padding-top: 100%; */
 }
 
 /* line 180, ../scss/_personal.scss */
@@ -2396,6 +2405,15 @@ a:hover {
   font-family: "Maven Pro", sans-serif;
   color: #ff500a;
 }
+
+/* .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
 
 @media only screen and (max-width: 40em) {
   /* line 237, ../scss/_personal.scss */

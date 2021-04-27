@@ -35,8 +35,10 @@ data = {
 			"year": 2020,
 			"featured": "",
 			"award": "ChinaVis2020 Best Paper Award",
+			"awardicon": "award",
 			"type": "journal",
-			"png": "2021JOV_Jin_Ecolens.png"
+			"png": "2021JOV_Jin_Ecolens.png",
+			"pubsub": "ChinaVis"
 		},
 		{
 			"title": "Calliope: Automatic Visual Data Story Generation from a Spreadsheet",
@@ -50,7 +52,8 @@ data = {
 			"featured": "",
 			"award": "",
 			"type": "journal",
-			"png": "2020TVCG_Shi_Calliope.png"
+			"png": "2020TVCG_Shi_Calliope.png",
+			"pubsub": "TVCG",
 		},
 		{
 			"title": "EmoG: Supporting the Sketching of Emotional Expressions for Storyboarding",
@@ -58,13 +61,15 @@ data = {
 			"publisher": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
 			"materials": {
 				"pdf": "2020CHI_Shi_EmoG.pdf",
-				"video": "2020CHI_Shi_EmoG.mp4"
+				// "video": "2020CHI_Shi_EmoG.mp4"
+				"video": "https://www.youtube.com/watch?v=Q-QuNTbCQHA"
 			},
 			"year": 2020,
 			"featured": "yes",
 			"award": "",
 			"type": "conference",
-			"png": "2020CHI_Shi_EmoG.png"
+			"png": "2020CHI_Shi_EmoG.png",
+			"pubsub": "CHI",
 		},
 		{
 			"title": "Visual Analytics of Anomalous User Behaviors: A Survey",
@@ -77,7 +82,8 @@ data = {
 			"featured": "no",
 			"award": "",
 			"type": "journal",
-			"png": "2020TBD_Shi_Survey.png"
+			"png": "2020TBD_Shi_Survey.png",
+			"pubsub": "TBD",
 		},
 		{
 			"title": "VisAct: A Visualization Design System based on Semantic Actions",
@@ -90,7 +96,8 @@ data = {
 			"featured": "no",
 			"award": "",
 			"type": "journal",
-			"png": "2020JOV_Wu_VisAct.png"
+			"png": "2020JOV_Wu_VisAct.png",
+			"pubsub": "VIS",
 		},
 		{
 			"title": "Task-Oriented Optimal Sequencing of Visualization Charts",
@@ -103,7 +110,8 @@ data = {
 			"featured": "no",
 			"award": "",
 			"type": "conference",
-			"png": "2019_VDS_Shi_Task.png"
+			"png": "2019_VDS_Shi_Task.png",
+			"pubsub": "VDS",
 		},
 		{
 			"title": "AI-Sketcher: A Deep Generative Model for Generating High Quality Sketches",
@@ -116,7 +124,9 @@ data = {
 			"featured": "no",
 			"award": "",
 			"type": "conference",
-			"png": "2018AAAI_Cao_AISketcher.png"
+			"png": "2018AAAI_Cao_AISketcher.png",
+			"pubsub": "AAAI",
+			
 		},
 		{
 			"title": "Interactive Context-Aware Anomaly Detection Guided by User Feedback",
@@ -129,7 +139,8 @@ data = {
 			"featured": "no",
 			"award": "",
 			"type": "journal",
-			"png": "2019HMS_Shi_iDetector.png"
+			"png": "2019HMS_Shi_iDetector.png",
+			"pubsub": "HMS",
 		},
 		{
 			"title": "A Novel Radial Visualization of Intrusion Detection Alerts",
@@ -142,7 +153,8 @@ data = {
 			"featured": "no",
 			"award": "",
 			"type": "journal",
-			"png": "2018CGA_Shi_IDSPlanet.png"
+			"png": "2018CGA_Shi_IDSPlanet.png",
+			"pubsub": "CGA",
 		},
 		{
 			"title": "Designing Emotional Expressions of Conversational States for Voice Assistants: Modality and Engagement",
@@ -155,7 +167,8 @@ data = {
 			"featured": "no",
 			"award": "",
 			"type": "conference",
-			"png": "2018CHI_Shi_Design.png"
+			"png": "2018CHI_Shi_Design.png",
+			"pubsub": "CHI",
 		},
 		{
 			"title": "MeetingVis: Visual Narratives to Assist in Recalling Meeting Context and Content",
@@ -167,8 +180,10 @@ data = {
 			"year": 2018,
 			"featured": "yes",
 			"award": "IEEE PacificVis 2018 Honorable Mention Award",
+			"awardicon": "trophy",
 			"type": "journal",
-			"png": "2018TVCG_Shi_MeetingVis.png"
+			"png": "2018TVCG_Shi_MeetingVis.png",
+			"pubsub": "TVCG",
 		},
 		{
 			"title": "IdeaWall: Improving Creative Collaboration through Combinatorial Visual Stimuli",
@@ -181,7 +196,8 @@ data = {
 			"featured": "yes",
 			"award": "",
 			"type": "conference",
-			"png": "2017CSCW_Shi_IdeaWall.png"
+			"png": "2017CSCW_Shi_IdeaWall.png",
+			"pubsub": "CSCW",
 		},
 		{
 			"title": "Dimension Reconstruction for Visual Exploration of Subspace Clusters in High-dimensional Data",
@@ -194,7 +210,8 @@ data = {
 			"featured": "no",
 			"award": "",
 			"type": "conference",
-			"png": "2016PacificVis_Zhou_Dimension.png"
+			"png": "2016PacificVis_Zhou_Dimension.png",
+			"pubsub": "PacificVis",
 		},
 		{
 			"title": "ENTVis: A Visual Analytic Tool for Entropy-Based Network Traffic Anomaly Detection",
@@ -207,7 +224,8 @@ data = {
 			"featured": "no",
 			"award": "",
 			"type": "journal",
-			"png": "2015CGA_Zhou_EnTVis.png"
+			"png": "2015CGA_Zhou_EnTVis.png",
+			"pubsub": "CGA",
 		},
 		{
 			"title": "Celestia: A vocal interaction music game",
@@ -219,8 +237,10 @@ data = {
 			"year": 2013,
 			"featured": "no",
 			"award": "ACM SIGCHI 2013 Student Game Competition Top 3",
+			"awardicon": "award",
 			"type": "conference",			
-			"png": "2013CHI_Shi_Celestia.png"
+			"png": "2013CHI_Shi_Celestia.png",
+			"pubsub": "CHI",
 		}
 	]
 }
