@@ -26,6 +26,48 @@ data = {
 	]
 	}],
 	"publications": [{
+			"title": "Communicating with Motion: A Design Space for Animated Visual Narratives in Data Videos",
+			"authors": "Yang Shi, Xingyu Lan, Jingwen Li, Zhaorui Li, Nan Cao",
+			"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2021)",
+			"materials": {
+				"pdf": "2021CHI_DataVideo_Shi.pdf",
+				"video": "https://www.youtube.com/watch?v=KqAHMFHaX-I"
+			},
+			"year": 2021,
+			"featured": "yes",
+			"award": "",
+			"type": "conference",
+			"png": "2021CHI_DataVideo_Shi.jpg",
+			"pubsub": "CHI"
+		},{
+			"title": "Vinci: An Intelligent Graphic Design System forGenerating Advertising Posters",
+			"authors": "Shunan Guo, Zhuochen Jin, Fuling Sun, Jingwen Li, Zhaorui Li, Yang Shi, Nan Cao",
+			"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2021)",
+			"materials": {
+				"pdf": "2021CHI_Vinci_Guo.pdf",
+				"video": "https://www.youtube.com/watch?v=KqAHMFHaX-I"
+			},
+			"year": 2021,
+			"featured": "",
+			"award": "",
+			"type": "conference",
+			"png": "2021CHI_Vinci_Guo.jpg",
+			"pubsub": "CHI"
+		},{
+			"title": "Smile or Scowl? Looking at Infographic Design Through the Affective Lens",
+			"authors": "Xingyu Lan, Yang Shi, Yueyao Zhang, Nan Cao",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE PacificVis 2021)",
+			"materials": {
+				"pdf": "2021TVCG_Smile_Lan.pdf",
+				"video": "https://www.youtube.com/watch?v=jUFSso9ZjXk"
+			},
+			"year": 2021,
+			"featured": "",
+			"award": "",
+			"type": "journal",
+			"png": "2021TVCG_Smile_Lan.jpg",
+			"pubsub": "TVCG"
+		},{
 			"title": "EcoLens: Visual Analysis of Ecological Regions in Urban Contexts Using Traffic Data",
 			"authors": "Zhuochen Jin, Nan Cao, Yang Shi, Wenchao Wu, Yingcai Wu",
 			"publisher": "Journal of Visualization (ChinaVis2020)",
@@ -61,7 +103,6 @@ data = {
 			"publisher": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
 			"materials": {
 				"pdf": "2020CHI_Shi_EmoG.pdf",
-				// "video": "2020CHI_Shi_EmoG.mp4"
 				"video": "https://www.youtube.com/watch?v=Q-QuNTbCQHA"
 			},
 			"year": 2020,
