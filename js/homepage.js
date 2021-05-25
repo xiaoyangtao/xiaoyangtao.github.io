@@ -122,6 +122,27 @@ window.onload = ()=>{
             // html += generate('fas fa-video', `assets/pubs/${d.video}`, 'Video');
             html += generate('fas fa-video', `${d.video}`, 'Video');
         }
+
+        if (d.demo!=undefined){
+            // html+= generate('fas fa-video', d.video.startsWith('http')?d.video:`${path}/video.mp4`, 'VIDEO');
+            html += "|&nbsp;&nbsp;"
+            // html += generate('fas fa-video', `assets/pubs/${d.video}`, 'Video');
+            html += generate('fas fa-object-group', `${d.demo}`, 'Demo');
+        }
+
+        if (d.explorer!=undefined){
+            // html+= generate('fas fa-video', d.video.startsWith('http')?d.video:`${path}/video.mp4`, 'VIDEO');
+            html += "|&nbsp;&nbsp;"
+            // html += generate('fas fa-video', `assets/pubs/${d.video}`, 'Video');
+            html += generate('fas fa-search', `${d.explorer}`, 'Explorer');
+        }
+
+        if (d.presentation!=undefined){
+            // html+= generate('fas fa-video', d.video.startsWith('http')?d.video:`${path}/video.mp4`, 'VIDEO');
+            html += "|&nbsp;&nbsp;"
+            // html += generate('fas fa-video', `assets/pubs/${d.video}`, 'Video');
+            html += generate('fas fa-tv', `${d.presentation}`, 'Presentation');
+        }
         // if (d.software!=''){
         //     html+= generate('fas fa-desktop', d.software, 'SOFTWARE');
         // }
