@@ -43,6 +43,23 @@ data = {
 			"png": "2021CHI_DataVideo_Shi.jpg",
 			"pubsub": "CHI"
 		},{
+			"title": "Understanding the Design Space for Animated Narratives Applied to Illustrations",
+			"authors": "Yang Shi, Zhaorui Li, Lingfei Xu, Nan Cao",
+			"publisher": "Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (SIGCHI2021 EA)",
+			"materials": {
+				"pdf": "2021CHI_Illustration_shi.pdf",
+				"video": "https://youtu.be/zLe4WzGwytk",
+				"presentation": "https://www.youtube.com/watch?v=Nfg41MfMifs",
+				"explorer": "https://illustrationexplorer.idvxlab.com/"
+				
+			},
+			"year": 2021,
+			"featured": "",
+			"award": "",
+			"type": "conference",
+			"png": "2021CHI_Illustration_shi.png",
+			"pubsub": "CHI EA"
+		},{
 			"title": "Vinci: An Intelligent Graphic Design System forGenerating Advertising Posters",
 			"authors": "Shunan Guo, Zhuochen Jin, Fuling Sun, Jingwen Li, Zhaorui Li, Yang Shi, Nan Cao",
 			"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2021)",
