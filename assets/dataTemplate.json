@@ -26,6 +26,40 @@ data = {
 	]
 	}],
 	"publications": [{
+			"title": "Kineticharts: Augmenting Affective Expressiveness of Charts in Data Stories with Animation Design",
+			"authors": "Xingyu Lan, Yang Shi, Yanqiu Wu, Xiaohan Jiao, Nan Cao",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2021)",
+			"materials": {
+				// "pdf": "2021CHI_DataVideo_Shi.pdf",
+				// "video": "https://youtu.be/apd2SaNTmbk",
+				// "presentation" : "https://www.youtube.com/watch?v=scORw5QbMgg",
+				// "explorer": "https://videoexplorer.idvxlab.com/"
+				
+			},
+			"year": 2021,
+			"featured": "",
+			"award": "",
+			"type": "journal",
+			"png": "2021TVCG_Smile_Lan.jpg",
+			"pubsub": "TVCG"
+		},{
+			"title": "A Design Space for Applying the Freytag’s Pyramid Structure to Data Stories",
+			"authors": "Leni Yang, Xian Xu, Xingyu Lan, Ziyan Liu, Shunan Guo, Yang Shi, Huamin Qu, Nan Cao",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2021)",
+			"materials": {
+				// "pdf": "2021CHI_DataVideo_Shi.pdf",
+				// "video": "https://youtu.be/apd2SaNTmbk",
+				// "presentation" : "https://www.youtube.com/watch?v=scORw5QbMgg",
+				// "explorer": "https://videoexplorer.idvxlab.com/"
+				
+			},
+			"year": 2021,
+			"featured": "",
+			"award": "",
+			"type": "journal",
+			"png": "2021VIS_Pyramid_Yang.jpg",
+			"pubsub": "TVCG"
+		},{
 			"title": "Communicating with Motion: A Design Space for Animated Visual Narratives in Data Videos",
 			"authors": "Yang Shi, Xingyu Lan, Jingwen Li, Zhaorui Li, Nan Cao",
 			"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2021)",
