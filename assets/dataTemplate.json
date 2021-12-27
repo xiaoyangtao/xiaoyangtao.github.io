@@ -238,7 +238,7 @@ data = {
 			"pdf": "2019HMS_Shi_iDetector.pdf",
 		},
 		"year": 2019,
-		"featured": "no",
+		"featured": "yes",
 		"award": "",
 		"type": "journal",
 		"png": "2019HMS_Shi_iDetector.png",
@@ -271,7 +271,7 @@ data = {
 		"award": "",
 		"type": "conference",
 		"png": "2018CHI_Shi_Design.png",
-		"pubsub": "CHI",
+		"pubsub": "CHI EA",
 	},
 	{
 		"title": "MeetingVis: Visual Narratives to Assist in Recalling Meeting Context and Content",
@@ -345,7 +345,23 @@ data = {
 		"awardicon": "award",
 		"type": "conference",			
 		"png": "2013CHI_Shi_Celestia.png",
-		"pubsub": "CHI",
+		"pubsub": "CHI EA",
+	},
+	{
+		"title": "Celestia: A vocal interaction music game",
+		"authors": "Cheng Yang, Yang Shi",
+		"publisher": "ACM SIGGRAPH 2013 Poster",
+		"materials": {
+			"pdf": "2013SIGGRAPH_Shi_Celestia.png",
+			"explorer": "https://vocalcelestia.wordpress.com/2013/01/17/hello/"
+		},
+		"year": 2013,
+		"featured": "no",
+		"award": "ACM SIGCHI 2013 Student Game Competition Top 3",
+		"awardicon": "",
+		"type": "conference",			
+		"png": "2013CHI_Shi_Celestia.png",
+		"pubsub": "SIGGRAPH Poster",
 	}
 ]
 }
