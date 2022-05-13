@@ -64,8 +64,8 @@ window.onload = ()=>{
                         <div class='pub-title'><strong>${d.title}</strong></div>
                         <div class='pub-authors'>${d.authors.replace('Yang Shi', '<strong>Yang Shi</strong>')}</div>
                         <div class='pub-publisher'>
-                        <span class="badge badge-pill badge-hkust">${d.pubsub}</span>
-                        ${d.publisher}
+                        <div class="badge badge-pill badge-hkust">${d.pubsub}</div>
+                        <div class="publisher-info"><p>${d.publisher}</p></div>
                         </div>
                         <i class="fas pub-icon fa-${d.awardicon}"></i>
                         <div class="pub-award" style="line-height:2">${d.award}</div>

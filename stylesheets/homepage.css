@@ -179,8 +179,21 @@ section{
     border-radius: 10px;
     font-style: normal;
 }
+
 .badge-hkust {
     background-color: #013e7d;
+    display: inline-block;
+    height: 18px;
+    line-height: 14px;
+    margin-top: -4px;
+}
+
+.publisher-info {
+    display: inline-block;
+    line-height: 14px;
+}
+.publisher-info p {
+    display: contents;
 }
 
 @media only screen and (max-width:768px){
