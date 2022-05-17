@@ -189,7 +189,7 @@ section{
 }
 
 .publisher-info {
-    display: inline-block;
+    display: inline;
     line-height: 14px;
 }
 .publisher-info p {
