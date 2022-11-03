@@ -30,7 +30,87 @@ data = {
 		}
 	]
 	}],
-	"publications": [{
+	"publications": [
+		{
+		"title": "Breaking the Fourth Wall of Data Stories through Interaction",
+		"authors": "Yang Shi, Tian Gao, Xiaohan Jiao, Nan Cao",
+		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
+		"materials": {
+			"pdf": "2022VIS_BTFWinteraction_Shi.pdf",
+			"video": "https://youtu.be/sqEVeWd7oYw",
+			"presentation" : "https://youtu.be/uezLXl3wqb4",
+			"explorer": "https://idvxlab.com/btfwinteraction/"
+		},
+		"year": 2022,
+		"featured": "yes",
+		"award": "IEEE Vis 2022 Honorable Mention Award",
+		"awardicon": "trophy",
+		"type": "journal",
+		"png": "2022VIS_BTFWinteraction_Shi.jpg",
+		"pubsub": "TVCG"
+	},{
+		"title": "Supporting Expressive and Faithful Pictorial Visualization Design with Visual Style Transfer",
+		"authors": "Yang Shi, Pei Liu, Siji Chen, Mengdi Sun, Nan Cao",
+		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
+		"materials": {
+			"pdf": "2022TVCG_Picto_Shi.pdf",
+			"video": "https://youtu.be/sqEVeWd7oYw",
+			"presentation" : "https://youtu.be/P4Ckm0qIwoc",
+			"explorer": "https://idvxlab.com/vistylist/"
+		},
+		"year": 2022,
+		"featured": "yes",
+		"award": "IEEE Vis 2022 Honorable Mention Award",
+		"awardicon": "trophy",
+		"type": "journal",
+		"png": "2022TVCG_Picto_Shi.png",
+		"pubsub": "TVCG"
+	},{
+		"title": "Erato: Cooperative Data Story Editing via Fact Interpolation",
+		"authors": "Mengdi Sun, Ligan Cai, Weiwei Cui, Yanqiu Wu, Yang Shi, Nan Cao",
+		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
+		"materials": {
+			"pdf": "2022TVCG_FactInterpolation_Sun.pdf",
+			"video": "https://www.youtube.com/watch?v=o-s25jMn43A",
+			"presentation" : "https://www.youtube.com/watch?v=jfMVu4yDNU4",
+			"demo": "https://erato.idvxlab.com/"
+		},
+		"year": 2022,
+		"featured": "",
+		"award": "",
+		"type": "journal",
+		"png": "2022TVCG_FactInterpolation_Sun.png",
+		"pubsub": "TVCG"
+	},{
+		"title": "Diverse Interaction Recommendation for Public Users Exploring Multi-view Visualization using Deep Learning",
+		"authors": "Yixuan Li, Yusheng Qi, Yang Shi, Qing Chen, Nan Cao, Siming Chen",
+		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
+		"materials": {
+			"pdf": "2022TVCG_Diverse_li.pdf"
+		},
+		"year": 2022,
+		"featured": "",
+		"award": "",
+		"type": "journal",
+		"png": "2022TVCG_Diverse_li.png",
+		"pubsub": "TVCG"
+	},{
+		"title": "Negative Emotions, Positive Outcomes? Exploring the Communication of Negativity in Serious Data Stories",
+		"authors": "Xingyu Lan, Yanqiu Wu, Yang Shi, Qing Chen, Nan Cao",
+		"publisher": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2022)",
+		"materials": {
+			"pdf": "2022CHI_Negativity_Lan.pdf",
+			"video": "https://www.youtube.com/watch?v=hHwLUmJkmhU",
+			"presentation" : "https://www.youtube.com/watch?v=E6v8UCaLqW8",
+			"explorer": "https://negativity.idvxlab.com/"
+		},
+		"year": 2022,
+		"featured": "",
+		"award": "",
+		"type": "conference",
+		"png": "2022CHI_Negativity_Lan.png",
+		"pubsub": "CHI"
+	},{
 		"title": "Kineticharts: Augmenting Affective Expressiveness of Charts in Data Stories with Animation Design",
 		"authors": "Xingyu Lan, Yang Shi, Yanqiu Wu, Xiaohan Jiao, Nan Cao",
 		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2021)",
