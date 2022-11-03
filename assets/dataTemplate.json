@@ -16,6 +16,9 @@ data = {
 	"students": [{
 		"degree": "MS",
 		"students": [		{
+			"name": "Jiani Hou",
+			"degree": "MS"
+		},{
 			"name": "Bingchang Chen",
 			"degree": "MS"
 		},{
