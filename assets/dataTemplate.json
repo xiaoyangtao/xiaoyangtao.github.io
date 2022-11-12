@@ -32,6 +32,24 @@ data = {
 	}],
 	"publications": [
 		{
+   "title": "ColorCook: Augmenting Color Design for Dashboarding with Domain-Associated Palettes",
+   "authors": "Yang Shi, Siji Chen, Pei Liu, Jiang Long, Nan Cao",
+   "publisher": "In Proceedings of the ACM on Human-Computer Interaction (CSCW2022)",
+   "materials": {
+    "pdf": "2022CSCW_ColorCook_Shi.pdf",
+    "video": "https://youtu.be/YHp4OC35Gmw",
+    "presentation" : "https://youtu.be/PAck55Nf-ls",
+    "explorer": "https://idvxlab.com/colorcook/"
+   },
+   "year": 2022,
+   "featured": "yes",
+   "award": "",
+   "awardicon": "",
+   "type": "conference",
+   "png": "2022CSCW_ColorCook_Shi.png",
+   "pubsub": "CSCW"
+  },
+		{
 		"title": "Breaking the Fourth Wall of Data Stories through Interaction",
 		"authors": "Yang Shi, Tian Gao, Xiaohan Jiao, Nan Cao",
 		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
