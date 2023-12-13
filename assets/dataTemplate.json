@@ -13,456 +13,519 @@ data = {
 			"text": "Recipient of the Young Scientists Fund (2019-2021) by the National Natural Science Foundation of China."
 		}
 	],
-	"students": [{
-		"degree": "MS",
-		"students": [		{
-			"name": "Jiani Hou",
-			"degree": "MS"
+	"students": [
+				{
+			"degree": "PhD",
+			"students": [{
+				"name": "Zichun Dai",
+				"degree": "PhD"
+			}
+		]},
+		{
+			"degree": "MS",
+			"students": [{
+				"name": "Yechun Peng",
+				"degree": "MS"
+			},{
+				"name": "Jingxin Ye",
+				"degree": "MS"
+			},{
+				"name": "Jiani Hou",
+				"degree": "MS"
+			},{
+				"name": "Bingchang Chen",
+				"degree": "MS"
+			},{
+				"name": "Tian Gao",
+				"degree": "MS"
+			},{
+				"name": "Siji Chen",
+				"degree": "MS"
+			}
+		]
+		}],
+	"publications": [
+				{
+			"title": "Supporting Guided Exploratory Visual Analysis on Time Series Data with Reinforcement Learning",
+			"authors": "Yang Shi, Bingchang Chen, Ying Chen, Zhuochen Jin, Ke Xu, Xiaohan Jiao, Tian Gao, Nan Cao",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2023)",
+			"materials": {
+				"pdf": "2023VIS_Visail_Shi.pdf",
+				"presentation" : "https://youtu.be/cKyM35miM8c",
+				"demo": "https://idvxlab.com/visail"
+			},
+			"year": 2023,
+			"featured": "yes",
+			"award": "",
+			"awardicon": "",
+			"type": "journal",
+			"png": "2023VIS_Visail_Shi.jpg",
+			"pubsub": "TVCG"
+		},
+				{
+			"title": "Understanding Design Collaboration Between Designers and Artificial Intelligence: A Systematic Literature Review",
+			"authors": "Yang Shi, Tian Gao, Xiaohan Jiao, Nan Cao",
+			"publisher": "In Proceedings of the ACM on Human-Computer Interaction (CSCW2023)",
+			"materials": {
+				"pdf": "2023CSCW_AI4Design_Shi.pdf",
+				"presentation" : "https://youtu.be/4SQNcuy6TII?si=fKJLUqQmStg3A2J8",
+				"explorer": "https://idvxlab.com/ai4design/"
+			},
+			"year": 2023,
+			"featured": "yes",
+			"award": "",
+			"awardicon": "",
+			"type": "conference",
+			"png": "2023CSCW_AI4Design_Shi.png",
+			"pubsub": "CSCW"
+		},
+			{
+			"title": "Bring Clipart to Life",
+			"authors": "Nanxuan Zhao, Shengqi Dang, Hexun Lin, Yang Shi, Nan Cao",
+			"publisher": "International Conference on Computer Vision (ICCV2023)",
+			"materials": {
+				"pdf": "2023ICCV_ClipFaceShop_Zhao.pdf"
+			},
+			"year": 2023,
+			"featured": "",
+			"award": "",
+			"awardicon": "",
+			"type": "conference",
+			"png": "2023ICCV_ClipFaceShop_Zhao.png",
+			"pubsub": "ICCV"
+		},
+		{
+			"title": "ColorCook: Augmenting Color Design for Dashboarding with Domain-Associated Palettes",
+			"authors": "Yang Shi, Siji Chen, Pei Liu, Jiang Long, Nan Cao",
+			"publisher": "In Proceedings of the ACM on Human-Computer Interaction (CSCW2022)",
+			"materials": {
+				"pdf": "2022CSCW_ColorCook_Shi.pdf",
+				"video": "https://youtu.be/YHp4OC35Gmw",
+				"presentation" : "https://www.youtube.com/watch?v=Nm1oCiyz_v0",
+				"explorer": "https://idvxlab.com/colorcook/"
+			},
+			"year": 2022,
+			"featured": "yes",
+			"award": "",
+			"awardicon": "",
+			"type": "conference",
+			"png": "2022CSCW_ColorCook_Shi.png",
+			"pubsub": "CSCW"
+		},
+		{
+			"title": "Breaking the Fourth Wall of Data Stories through Interaction",
+			"authors": "Yang Shi, Tian Gao, Xiaohan Jiao, Nan Cao",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
+			"materials": {
+				"pdf": "2022VIS_BTFWinteraction_Shi.pdf",
+				"video": "https://youtu.be/sqEVeWd7oYw",
+				"presentation" : "https://youtu.be/uezLXl3wqb4",
+				"explorer": "https://idvxlab.com/btfwinteraction/"
+			},
+			"year": 2022,
+			"featured": "yes",
+			"award": "IEEE Vis 2022 Honorable Mention Award",
+			"awardicon": "trophy",
+			"type": "journal",
+			"png": "2022VIS_BTFWinteraction_Shi.jpg",
+			"pubsub": "TVCG"
 		},{
-			"name": "Bingchang Chen",
-			"degree": "MS"
+			"title": "Supporting Expressive and Faithful Pictorial Visualization Design with Visual Style Transfer",
+			"authors": "Yang Shi, Pei Liu, Siji Chen, Mengdi Sun, Nan Cao",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
+			"materials": {
+				"pdf": "2022TVCG_Picto_Shi.pdf",
+				"video": "https://youtu.be/sqEVeWd7oYw",
+				"presentation" : "https://youtu.be/P4Ckm0qIwoc",
+				"explorer": "https://idvxlab.com/vistylist/"
+			},
+			"year": 2022,
+			"featured": "yes",
+			"award": "IEEE Vis 2022 Honorable Mention Award",
+			"awardicon": "trophy",
+			"type": "journal",
+			"png": "2022TVCG_Picto_Shi.png",
+			"pubsub": "TVCG"
 		},{
-			"name": "Tian Gao",
-			"degree": "MS"
+			"title": "Erato: Cooperative Data Story Editing via Fact Interpolation",
+			"authors": "Mengdi Sun, Ligan Cai, Weiwei Cui, Yanqiu Wu, Yang Shi, Nan Cao",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
+			"materials": {
+				"pdf": "2022TVCG_FactInterpolation_Sun.pdf",
+				"video": "https://www.youtube.com/watch?v=o-s25jMn43A",
+				"presentation" : "https://www.youtube.com/watch?v=jfMVu4yDNU4",
+				"demo": "https://erato.idvxlab.com/"
+			},
+			"year": 2022,
+			"featured": "",
+			"award": "",
+			"type": "journal",
+			"png": "2022TVCG_FactInterpolation_Sun.png",
+			"pubsub": "TVCG"
 		},{
-			"name": "Siji Chen",
-			"degree": "MS"
+			"title": "Diverse Interaction Recommendation for Public Users Exploring Multi-view Visualization using Deep Learning",
+			"authors": "Yixuan Li, Yusheng Qi, Yang Shi, Qing Chen, Nan Cao, Siming Chen",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
+			"materials": {
+				"pdf": "2022TVCG_Diverse_li.pdf"
+			},
+			"year": 2022,
+			"featured": "",
+			"award": "",
+			"type": "journal",
+			"png": "2022TVCG_Diverse_li.png",
+			"pubsub": "TVCG"
+		},{
+			"title": "Negative Emotions, Positive Outcomes? Exploring the Communication of Negativity in Serious Data Stories",
+			"authors": "Xingyu Lan, Yanqiu Wu, Yang Shi, Qing Chen, Nan Cao",
+			"publisher": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2022)",
+			"materials": {
+				"pdf": "2022CHI_Negativity_Lan.pdf",
+				"video": "https://www.youtube.com/watch?v=hHwLUmJkmhU",
+				"presentation" : "https://www.youtube.com/watch?v=E6v8UCaLqW8",
+				"explorer": "https://negativity.idvxlab.com/"
+			},
+			"year": 2022,
+			"featured": "",
+			"award": "",
+			"type": "conference",
+			"png": "2022CHI_Negativity_Lan.png",
+			"pubsub": "CHI"
+		},{
+			"title": "Kineticharts: Augmenting Affective Expressiveness of Charts in Data Stories with Animation Design",
+			"authors": "Xingyu Lan, Yang Shi, Yanqiu Wu, Xiaohan Jiao, Nan Cao",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2021)",
+			"materials": {
+				"pdf": "2021VIS_Charts_Lan.pdf",
+				"video": "https://vimeo.com/644191526",
+				"presentation" : "https://vimeo.com/644192276",
+				"explorer": "https://kineticharts.idvxlab.com/"
+			},
+			"year": 2021,
+			"featured": "",
+			"award": "",
+			"type": "journal",
+			"png": "2021VIS_Charts_Lan.jpg",
+			"pubsub": "TVCG"
+		},{
+			"title": "A Design Space for Applying the Freytag’s Pyramid Structure to Data Stories",
+			"authors": "Leni Yang, Xian Xu, Xingyu Lan, Ziyan Liu, Shunan Guo, Yang Shi, Huamin Qu, Nan Cao",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2021)",
+			"materials": {
+				"pdf": "2021VIS_Pyramid_Yang.pdf",
+				"video": "https://youtu.be/Ore_17Nkr0o",
+				"presentation" : "https://youtu.be/mkZDFyOXxa8",
+				"explorer": "https://pyramidstory.idvxlab.com/"
+			},
+			"year": 2021,
+			"featured": "",
+			"award": "",
+			"type": "journal",
+			"png": "2021VIS_Pyramid_Yang.jpg",
+			"pubsub": "TVCG"
+		},{
+			"title": "Communicating with Motion: A Design Space for Animated Visual Narratives in Data Videos",
+			"authors": "Yang Shi, Xingyu Lan, Jingwen Li, Zhaorui Li, Nan Cao",
+			"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2021)",
+			"materials": {
+				"pdf": "2021CHI_DataVideo_Shi.pdf",
+				"video": "https://youtu.be/apd2SaNTmbk",
+				"presentation" : "https://www.youtube.com/watch?v=scORw5QbMgg",
+				"explorer": "https://videoexplorer.idvxlab.com/"
+			},
+			"year": 2021,
+			"featured": "yes",
+			"award": "",
+			"type": "conference",
+			"png": "2021CHI_DataVideo_Shi.jpg",
+			"pubsub": "CHI"
+		},{
+			"title": "Understanding the Design Space for Animated Narratives Applied to Illustrations",
+			"authors": "Yang Shi, Zhaorui Li, Lingfei Xu, Nan Cao",
+			"publisher": "Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (SIGCHI2021 EA)",
+			"materials": {
+				"pdf": "2021CHI_Illustration_shi.pdf",
+				"video": "https://youtu.be/zLe4WzGwytk",
+				"presentation": "https://www.youtube.com/watch?v=Nfg41MfMifs",
+				"explorer": "https://illustrationexplorer.idvxlab.com/"
+
+			},
+			"year": 2021,
+			"featured": "",
+			"award": "",
+			"type": "conference",
+			"png": "2021CHI_Illustration_shi.png",
+			"pubsub": "CHI EA"
+		},{
+			"title": "Vinci: An Intelligent Graphic Design System forGenerating Advertising Posters",
+			"authors": "Shunan Guo, Zhuochen Jin, Fuling Sun, Jingwen Li, Zhaorui Li, Yang Shi, Nan Cao",
+			"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2021)",
+			"materials": {
+				"pdf": "2021CHI_Vinci_Guo.pdf",
+				"video": "https://youtu.be/XNA0diI-LXg",
+				"presentation": "https://www.youtube.com/watch?v=KqAHMFHaX-I",
+				"demo": "https://vinci.idvxlab.com:7000/"
+
+			},
+			"year": 2021,
+			"featured": "",
+			"award": "",
+			"type": "conference",
+			"png": "2021CHI_Vinci_Guo.jpg",
+			"pubsub": "CHI"
+		},{
+			"title": "Smile or Scowl? Looking at Infographic Design Through the Affective Lens",
+			"authors": "Xingyu Lan, Yang Shi, Yueyao Zhang, Nan Cao",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE PacificVis 2021)",
+			"materials": {
+				"pdf": "2021TVCG_Smile_Lan.pdf",
+				"presentation": "https://www.youtube.com/watch?v=jUFSso9ZjXk",
+				"explorer": "https://affectiveinfographics.idvxlab.com/#"
+			},
+			"year": 2021,
+			"featured": "",
+			"award": "",
+			"type": "journal",
+			"png": "2021TVCG_Smile_Lan.jpg",
+			"pubsub": "TVCG"
+		},{
+			"title": "EcoLens: Visual Analysis of Ecological Regions in Urban Contexts Using Traffic Data",
+			"authors": "Zhuochen Jin, Nan Cao, Yang Shi, Wenchao Wu, Yingcai Wu",
+			"publisher": "Journal of Visualization (ChinaVis2020)",
+			"materials": {
+				"pdf": "2021JOV_Jin_Ecolens.pdf",
+				"video": "https://youtu.be/qGOZ6Ro_1EI"
+			},
+			"year": 2020,
+			"featured": "",
+			"award": "ChinaVis2020 Best Paper Award",
+			"awardicon": "award",
+			"type": "journal",
+			"png": "2021JOV_Jin_Ecolens.png",
+			"pubsub": "ChinaVis"
+		},
+		{
+			"title": "Calliope: Automatic Visual Data Story Generation from a Spreadsheet",
+			"authors": "Danqing Shi, Xinyue Xu, Fuling Sun, Yang Shi, Nan Cao",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis2020)",
+			"materials": {
+				"pdf": "2020TVCG_Shi_Calliope.pdf",
+				"video": "https://vimeo.com/478731018",
+				"presentation": "ttps://vimeo.com/478736226",
+				"demo": "https://lite.datacalliope.com"
+			},
+			"year": 2020,
+			"featured": "",
+			"award": "",
+			"type": "journal",
+			"png": "2020TVCG_Shi_Calliope.png",
+			"pubsub": "TVCG",
+		},
+		{
+			"title": "EmoG: Supporting the Sketching of Emotional Expressions for Storyboarding",
+			"authors": "Yang Shi, Nan Cao, Xiaojuan Ma, Siji Chen, Pei Liu",
+			"publisher": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+			"materials": {
+				"pdf": "2020CHI_Shi_EmoG.pdf",
+				"video": "https://www.youtube.com/watch?v=Q-QuNTbCQHA",
+				"presentation": "https://www.youtube.com/watch?v=47S6kfbdags",
+			},
+			"year": 2020,
+			"featured": "yes",
+			"award": "",
+			"type": "conference",
+			"png": "2020CHI_Shi_EmoG.png",
+			"pubsub": "CHI",
+		},
+		{
+			"title": "Visual Analytics of Anomalous User Behaviors: A Survey",
+			"authors": "Yang Shi, Yuyin Liu, Hanghang Tong, Jingrui He, Gang Yan, Nan Cao",
+			"publisher": "IEEE Transactions on Big Data",
+			"materials": {
+				"pdf": "2020TBD_Shi_Survey.pdf",
+			},
+			"year": 2020,
+			"featured": "no",
+			"award": "",
+			"type": "journal",
+			"png": "2020TBD_Shi_Survey.png",
+			"pubsub": "TBD",
+		},
+		{
+			"title": "VisAct: A Visualization Design System based on Semantic Actions",
+			"authors": "Hongjin Wu, Danqing Shi, Nan Chen, Yang Shi, Zhuochen Jin, Nan Cao",
+			"publisher": "Journal of Visualization",
+			"materials": {
+				"pdf": "2020JOV_Wu_VisAct.pdf"
+			},
+			"year": 2019,
+			"featured": "no",
+			"award": "",
+			"type": "journal",
+			"png": "2020JOV_Wu_VisAct.png",
+			"pubsub": "VIS",
+		},
+		{
+			"title": "Task-Oriented Optimal Sequencing of Visualization Charts",
+			"authors": "Danqing Shi, Yang Shi, Xinyue Xu, Nan Chen, Siwei Fu, Hongjin Wu, Nan Cao",
+			"publisher": "In Symposium on Visualization in Data Science at IEEE VIS",
+			"materials": {
+				"pdf": "2019_VDS_Shi_Task.pdf"
+			},
+			"year": 2019,
+			"featured": "no",
+			"award": "",
+			"type": "conference",
+			"png": "2019_VDS_Shi_Task.png",
+			"pubsub": "VDS",
+		},
+		{
+			"title": "AI-Sketcher: A Deep Generative Model for Generating High Quality Sketches",
+			"authors": "Nan Cao, Xin Yan, Yang Shi, Chaoran Chen",
+			"publisher": "The Thirty-Third AAAI Conference on Artificial Intelligence",
+			"materials": {
+				"pdf": "2018AAAI_Cao_AISketcher.pdf"
+			},
+			"year": 2019,
+			"featured": "no",
+			"award": "",
+			"type": "conference",
+			"png": "2018AAAI_Cao_AISketcher.png",
+			"pubsub": "AAAI",
+
+		},
+		{
+			"title": "Interactive Context-Aware Anomaly Detection Guided by User Feedback",
+			"authors": "Yang Shi, Maoran Xu, Rongwen Zhao, Hao Fu, Tongshuang Wu, Nan Cao",
+			"publisher": "IEEE Transactions on Human-Machine Systems",
+			"materials": {
+				"pdf": "2019HMS_Shi_iDetector.pdf",
+			},
+			"year": 2019,
+			"featured": "yes",
+			"award": "",
+			"type": "journal",
+			"png": "2019HMS_Shi_iDetector.png",
+			"pubsub": "HMS",
+		},
+		{
+			"title": "A Novel Radial Visualization of Intrusion Detection Alerts",
+			"authors": "Yang Shi, Ying Zhao, Fangfang Zhou, Guojun Wang, Ronghua Shi, Yaoxue Zhang",
+			"publisher": "IEEE Computer Graphics and Applications",
+			"materials": {
+				"pdf": "2018CGA_Shi_IDSPlanet.pdf",
+			},
+			"year": 2018,
+			"featured": "no",
+			"award": "",
+			"type": "journal",
+			"png": "2018CGA_Shi_IDSPlanet.png",
+			"pubsub": "CGA",
+		},
+		{
+			"title": "Designing Emotional Expressions of Conversational States for Voice Assistants: Modality and Engagement",
+			"authors": "Yang Shi, Xin Yan, Xiaojuan Ma, Yongqi Lou, Nan Cao",
+			"publisher": "ACM SIGCHI Extended Abstracts on Human Factors in Computing Systems 2018",
+			"materials": {
+				"pdf": "2018CHI_Shi_Design.pdf",
+				"video": "https://www.youtube.com/watch?v=_66ZMXOzlOg"
+			},
+			"year": 2018,
+			"featured": "no",
+			"award": "",
+			"type": "conference",
+			"png": "2018CHI_Shi_Design.png",
+			"pubsub": "CHI EA",
+		},
+		{
+			"title": "MeetingVis: Visual Narratives to Assist in Recalling Meeting Context and Content",
+			"authors": "Yang Shi, Chris Bryan, Sridatt Bhamidipati, Ying Zhao, Yaoxue Zhang, Kwan-Liu Ma",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE PacificVis 2018)",
+			"materials": {
+				"pdf": "2018TVCG_Shi_MeetingVis.pdf",
+				"video": "https://www.youtube.com/watch?v=XngXXTv6zNo"
+			},
+			"year": 2018,
+			"featured": "yes",
+			"award": "IEEE PacificVis 2018 Honorable Mention Award",
+			"awardicon": "trophy",
+			"type": "journal",
+			"png": "2018TVCG_Shi_MeetingVis.png",
+			"pubsub": "TVCG",
+		},
+		{
+			"title": "IdeaWall: Improving Creative Collaboration through Combinatorial Visual Stimuli",
+			"authors": "Yang Shi, Yang Wang, Ye Qi, John Chen, Xiaoyao Xu, Kwan-Liu Ma",
+			"publisher": "ACM Computer-Supported Cooperative Work and Social Computing 2017",
+			"materials": {
+				"pdf": "2017CSCW_Shi_IdeaWall.pdf"
+			},
+			"year": 2017,
+			"featured": "yes",
+			"award": "",
+			"type": "conference",
+			"png": "2017CSCW_Shi_IdeaWall.png",
+			"pubsub": "CSCW",
+		},
+		{
+			"title": "Dimension Reconstruction for Visual Exploration of Subspace Clusters in High-dimensional Data",
+			"authors": "Fangfang Zhou, Juncai Li, Wei Huang, Ying Zhao, Xiaoru Yuan, Xing Liang, Yang Shi",
+			"publisher": "IEEE Pacific Visualization 2016",
+			"materials": {
+				"pdf": "2016PacificVis_Zhou_Dimension.pdf"
+			},
+			"year": 2016,
+			"featured": "no",
+			"award": "",
+			"type": "conference",
+			"png": "2016PacificVis_Zhou_Dimension.png",
+			"pubsub": "PacificVis",
+		},
+		{
+			"title": "ENTVis: A Visual Analytic Tool for Entropy-Based Network Traffic Anomaly Detection",
+			"authors": "Fangfang Zhou, Wei Huang, Ying Zhao, Yang Shi, Xing Liang, Xiaoping Fan",
+			"publisher": "IEEE Computer Graphics and Applications",
+			"materials": {
+				"pdf": "2015CGA_Zhou_EnTVis.pdf"
+			},
+			"year": 2015,
+			"featured": "no",
+			"award": "",
+			"type": "journal",
+			"png": "2015CGA_Zhou_EnTVis.png",
+			"pubsub": "CGA",
+		},
+		{
+			"title": "Celestia: A vocal interaction music game",
+			"authors": "Yang Shi, Cheng Yang",
+			"publisher": "CM SIGCHI Extended Abstracts on Human Factors in Computing Systems 2013",
+			"materials": {
+				"pdf": "2013CHI_Shi_Celestia.pdf",
+				"explorer": "https://vocalcelestia.wordpress.com/2013/01/17/hello/"
+			},
+			"year": 2013,
+			"featured": "no",
+			"award": "ACM SIGCHI 2013 Student Game Competition Top 3",
+			"awardicon": "award",
+			"type": "conference",			
+			"png": "2013CHI_Shi_Celestia.png",
+			"pubsub": "CHI EA",
+		},
+		{
+			"title": "Celestia: A vocal interaction music game",
+			"authors": "Cheng Yang, Yang Shi",
+			"publisher": "ACM SIGGRAPH 2013 Poster",
+			"materials": {
+				"pdf": "2013SIGGRAPH_Shi_Celestia_poster.png",
+				"explorer": "https://vocalcelestia.wordpress.com/2013/01/17/hello/"
+			},
+			"year": 2013,
+			"featured": "no",
+			"award": "",
+			"awardicon": "",
+			"type": "conference",			
+			"png": "2013SIGGRAPH_Shi_Celestia.png",
+			"pubsub": "SIGGRAPH Poster",
 		}
 	]
-	}],
-	"publications": [
-		{
-   "title": "ColorCook: Augmenting Color Design for Dashboarding with Domain-Associated Palettes",
-   "authors": "Yang Shi, Siji Chen, Pei Liu, Jiang Long, Nan Cao",
-   "publisher": "In Proceedings of the ACM on Human-Computer Interaction (CSCW2022)",
-   "materials": {
-    "pdf": "2022CSCW_ColorCook_Shi.pdf",
-    "video": "https://youtu.be/YHp4OC35Gmw",
-    "presentation" : "https://www.youtube.com/watch?v=Nm1oCiyz_v0",
-    "explorer": "https://idvxlab.com/colorcook/"
-   },
-   "year": 2022,
-   "featured": "yes",
-   "award": "",
-   "awardicon": "",
-   "type": "conference",
-   "png": "2022CSCW_ColorCook_Shi.png",
-   "pubsub": "CSCW"
-  },
-		{
-		"title": "Breaking the Fourth Wall of Data Stories through Interaction",
-		"authors": "Yang Shi, Tian Gao, Xiaohan Jiao, Nan Cao",
-		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
-		"materials": {
-			"pdf": "2022VIS_BTFWinteraction_Shi.pdf",
-			"video": "https://youtu.be/sqEVeWd7oYw",
-			"presentation" : "https://youtu.be/uezLXl3wqb4",
-			"explorer": "https://idvxlab.com/btfwinteraction/"
-		},
-		"year": 2022,
-		"featured": "yes",
-		"award": "IEEE Vis 2022 Honorable Mention Award",
-		"awardicon": "trophy",
-		"type": "journal",
-		"png": "2022VIS_BTFWinteraction_Shi.jpg",
-		"pubsub": "TVCG"
-	},{
-		"title": "Supporting Expressive and Faithful Pictorial Visualization Design with Visual Style Transfer",
-		"authors": "Yang Shi, Pei Liu, Siji Chen, Mengdi Sun, Nan Cao",
-		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
-		"materials": {
-			"pdf": "2022TVCG_Picto_Shi.pdf",
-			"video": "https://youtu.be/sqEVeWd7oYw",
-			"presentation" : "https://youtu.be/P4Ckm0qIwoc",
-			"explorer": "https://idvxlab.com/vistylist/"
-		},
-		"year": 2022,
-		"featured": "yes",
-		"award": "IEEE Vis 2022 Honorable Mention Award",
-		"awardicon": "trophy",
-		"type": "journal",
-		"png": "2022TVCG_Picto_Shi.png",
-		"pubsub": "TVCG"
-	},{
-		"title": "Erato: Cooperative Data Story Editing via Fact Interpolation",
-		"authors": "Mengdi Sun, Ligan Cai, Weiwei Cui, Yanqiu Wu, Yang Shi, Nan Cao",
-		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
-		"materials": {
-			"pdf": "2022TVCG_FactInterpolation_Sun.pdf",
-			"video": "https://www.youtube.com/watch?v=o-s25jMn43A",
-			"presentation" : "https://www.youtube.com/watch?v=jfMVu4yDNU4",
-			"demo": "https://erato.idvxlab.com/"
-		},
-		"year": 2022,
-		"featured": "",
-		"award": "",
-		"type": "journal",
-		"png": "2022TVCG_FactInterpolation_Sun.png",
-		"pubsub": "TVCG"
-	},{
-		"title": "Diverse Interaction Recommendation for Public Users Exploring Multi-view Visualization using Deep Learning",
-		"authors": "Yixuan Li, Yusheng Qi, Yang Shi, Qing Chen, Nan Cao, Siming Chen",
-		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2022)",
-		"materials": {
-			"pdf": "2022TVCG_Diverse_li.pdf"
-		},
-		"year": 2022,
-		"featured": "",
-		"award": "",
-		"type": "journal",
-		"png": "2022TVCG_Diverse_li.png",
-		"pubsub": "TVCG"
-	},{
-		"title": "Negative Emotions, Positive Outcomes? Exploring the Communication of Negativity in Serious Data Stories",
-		"authors": "Xingyu Lan, Yanqiu Wu, Yang Shi, Qing Chen, Nan Cao",
-		"publisher": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2022)",
-		"materials": {
-			"pdf": "2022CHI_Negativity_Lan.pdf",
-			"video": "https://www.youtube.com/watch?v=hHwLUmJkmhU",
-			"presentation" : "https://www.youtube.com/watch?v=E6v8UCaLqW8",
-			"explorer": "https://negativity.idvxlab.com/"
-		},
-		"year": 2022,
-		"featured": "",
-		"award": "",
-		"type": "conference",
-		"png": "2022CHI_Negativity_Lan.png",
-		"pubsub": "CHI"
-	},{
-		"title": "Kineticharts: Augmenting Affective Expressiveness of Charts in Data Stories with Animation Design",
-		"authors": "Xingyu Lan, Yang Shi, Yanqiu Wu, Xiaohan Jiao, Nan Cao",
-		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2021)",
-		"materials": {
-			"pdf": "2021VIS_Charts_Lan.pdf",
-			"video": "https://vimeo.com/644191526",
-			"presentation" : "https://vimeo.com/644192276",
-			"explorer": "https://kineticharts.idvxlab.com/"
-		},
-		"year": 2021,
-		"featured": "",
-		"award": "",
-		"type": "journal",
-		"png": "2021VIS_Charts_Lan.jpg",
-		"pubsub": "TVCG"
-	},{
-		"title": "A Design Space for Applying the Freytag’s Pyramid Structure to Data Stories",
-		"authors": "Leni Yang, Xian Xu, Xingyu Lan, Ziyan Liu, Shunan Guo, Yang Shi, Huamin Qu, Nan Cao",
-		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2021)",
-		"materials": {
-			"pdf": "2021VIS_Pyramid_Yang.pdf",
-			"video": "https://youtu.be/Ore_17Nkr0o",
-			"presentation" : "https://youtu.be/mkZDFyOXxa8",
-			"explorer": "https://pyramidstory.idvxlab.com/"
-		},
-		"year": 2021,
-		"featured": "",
-		"award": "",
-		"type": "journal",
-		"png": "2021VIS_Pyramid_Yang.jpg",
-		"pubsub": "TVCG"
-	},{
-		"title": "Communicating with Motion: A Design Space for Animated Visual Narratives in Data Videos",
-		"authors": "Yang Shi, Xingyu Lan, Jingwen Li, Zhaorui Li, Nan Cao",
-		"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2021)",
-		"materials": {
-			"pdf": "2021CHI_DataVideo_Shi.pdf",
-			"video": "https://youtu.be/apd2SaNTmbk",
-			"presentation" : "https://www.youtube.com/watch?v=scORw5QbMgg",
-			"explorer": "https://videoexplorer.idvxlab.com/"
-		},
-		"year": 2021,
-		"featured": "yes",
-		"award": "",
-		"type": "conference",
-		"png": "2021CHI_DataVideo_Shi.jpg",
-		"pubsub": "CHI"
-	},{
-		"title": "Understanding the Design Space for Animated Narratives Applied to Illustrations",
-		"authors": "Yang Shi, Zhaorui Li, Lingfei Xu, Nan Cao",
-		"publisher": "Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (SIGCHI2021 EA)",
-		"materials": {
-			"pdf": "2021CHI_Illustration_shi.pdf",
-			"video": "https://youtu.be/zLe4WzGwytk",
-			"presentation": "https://www.youtube.com/watch?v=Nfg41MfMifs",
-			"explorer": "https://illustrationexplorer.idvxlab.com/"
-
-		},
-		"year": 2021,
-		"featured": "",
-		"award": "",
-		"type": "conference",
-		"png": "2021CHI_Illustration_shi.png",
-		"pubsub": "CHI EA"
-	},{
-		"title": "Vinci: An Intelligent Graphic Design System forGenerating Advertising Posters",
-		"authors": "Shunan Guo, Zhuochen Jin, Fuling Sun, Jingwen Li, Zhaorui Li, Yang Shi, Nan Cao",
-		"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2021)",
-		"materials": {
-			"pdf": "2021CHI_Vinci_Guo.pdf",
-			"video": "https://youtu.be/XNA0diI-LXg",
-			"presentation": "https://www.youtube.com/watch?v=KqAHMFHaX-I",
-			"demo": "https://vinci.idvxlab.com:7000/"
-
-		},
-		"year": 2021,
-		"featured": "",
-		"award": "",
-		"type": "conference",
-		"png": "2021CHI_Vinci_Guo.jpg",
-		"pubsub": "CHI"
-	},{
-		"title": "Smile or Scowl? Looking at Infographic Design Through the Affective Lens",
-		"authors": "Xingyu Lan, Yang Shi, Yueyao Zhang, Nan Cao",
-		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE PacificVis 2021)",
-		"materials": {
-			"pdf": "2021TVCG_Smile_Lan.pdf",
-			"presentation": "https://www.youtube.com/watch?v=jUFSso9ZjXk",
-			"explorer": "https://affectiveinfographics.idvxlab.com/#"
-		},
-		"year": 2021,
-		"featured": "",
-		"award": "",
-		"type": "journal",
-		"png": "2021TVCG_Smile_Lan.jpg",
-		"pubsub": "TVCG"
-	},{
-		"title": "EcoLens: Visual Analysis of Ecological Regions in Urban Contexts Using Traffic Data",
-		"authors": "Zhuochen Jin, Nan Cao, Yang Shi, Wenchao Wu, Yingcai Wu",
-		"publisher": "Journal of Visualization (ChinaVis2020)",
-		"materials": {
-			"pdf": "2021JOV_Jin_Ecolens.pdf",
-			"video": "https://youtu.be/qGOZ6Ro_1EI"
-		},
-		"year": 2020,
-		"featured": "",
-		"award": "ChinaVis2020 Best Paper Award",
-		"awardicon": "award",
-		"type": "journal",
-		"png": "2021JOV_Jin_Ecolens.png",
-		"pubsub": "ChinaVis"
-	},
-	{
-		"title": "Calliope: Automatic Visual Data Story Generation from a Spreadsheet",
-		"authors": "Danqing Shi, Xinyue Xu, Fuling Sun, Yang Shi, Nan Cao",
-		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis2020)",
-		"materials": {
-			"pdf": "2020TVCG_Shi_Calliope.pdf",
-			"video": "https://vimeo.com/478731018",
-			"presentation": "ttps://vimeo.com/478736226",
-			"demo": "https://lite.datacalliope.com"
-		},
-		"year": 2020,
-		"featured": "",
-		"award": "",
-		"type": "journal",
-		"png": "2020TVCG_Shi_Calliope.png",
-		"pubsub": "TVCG",
-	},
-	{
-		"title": "EmoG: Supporting the Sketching of Emotional Expressions for Storyboarding",
-		"authors": "Yang Shi, Nan Cao, Xiaojuan Ma, Siji Chen, Pei Liu",
-		"publisher": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
-		"materials": {
-			"pdf": "2020CHI_Shi_EmoG.pdf",
-			"video": "https://www.youtube.com/watch?v=Q-QuNTbCQHA",
-			"presentation": "https://www.youtube.com/watch?v=47S6kfbdags",
-		},
-		"year": 2020,
-		"featured": "yes",
-		"award": "",
-		"type": "conference",
-		"png": "2020CHI_Shi_EmoG.png",
-		"pubsub": "CHI",
-	},
-	{
-		"title": "Visual Analytics of Anomalous User Behaviors: A Survey",
-		"authors": "Yang Shi, Yuyin Liu, Hanghang Tong, Jingrui He, Gang Yan, Nan Cao",
-		"publisher": "IEEE Transactions on Big Data",
-		"materials": {
-			"pdf": "2020TBD_Shi_Survey.pdf",
-		},
-		"year": 2020,
-		"featured": "no",
-		"award": "",
-		"type": "journal",
-		"png": "2020TBD_Shi_Survey.png",
-		"pubsub": "TBD",
-	},
-	{
-		"title": "VisAct: A Visualization Design System based on Semantic Actions",
-		"authors": "Hongjin Wu, Danqing Shi, Nan Chen, Yang Shi, Zhuochen Jin, Nan Cao",
-		"publisher": "Journal of Visualization",
-		"materials": {
-			"pdf": "2020JOV_Wu_VisAct.pdf"
-		},
-		"year": 2019,
-		"featured": "no",
-		"award": "",
-		"type": "journal",
-		"png": "2020JOV_Wu_VisAct.png",
-		"pubsub": "VIS",
-	},
-	{
-		"title": "Task-Oriented Optimal Sequencing of Visualization Charts",
-		"authors": "Danqing Shi, Yang Shi, Xinyue Xu, Nan Chen, Siwei Fu, Hongjin Wu, Nan Cao",
-		"publisher": "In Symposium on Visualization in Data Science at IEEE VIS",
-		"materials": {
-			"pdf": "2019_VDS_Shi_Task.pdf"
-		},
-		"year": 2019,
-		"featured": "no",
-		"award": "",
-		"type": "conference",
-		"png": "2019_VDS_Shi_Task.png",
-		"pubsub": "VDS",
-	},
-	{
-		"title": "AI-Sketcher: A Deep Generative Model for Generating High Quality Sketches",
-		"authors": "Nan Cao, Xin Yan, Yang Shi, Chaoran Chen",
-		"publisher": "The Thirty-Third AAAI Conference on Artificial Intelligence",
-		"materials": {
-			"pdf": "2018AAAI_Cao_AISketcher.pdf"
-		},
-		"year": 2019,
-		"featured": "no",
-		"award": "",
-		"type": "conference",
-		"png": "2018AAAI_Cao_AISketcher.png",
-		"pubsub": "AAAI",
-
-	},
-	{
-		"title": "Interactive Context-Aware Anomaly Detection Guided by User Feedback",
-		"authors": "Yang Shi, Maoran Xu, Rongwen Zhao, Hao Fu, Tongshuang Wu, Nan Cao",
-		"publisher": "IEEE Transactions on Human-Machine Systems",
-		"materials": {
-			"pdf": "2019HMS_Shi_iDetector.pdf",
-		},
-		"year": 2019,
-		"featured": "yes",
-		"award": "",
-		"type": "journal",
-		"png": "2019HMS_Shi_iDetector.png",
-		"pubsub": "HMS",
-	},
-	{
-		"title": "A Novel Radial Visualization of Intrusion Detection Alerts",
-		"authors": "Yang Shi, Ying Zhao, Fangfang Zhou, Guojun Wang, Ronghua Shi, Yaoxue Zhang",
-		"publisher": "IEEE Computer Graphics and Applications",
-		"materials": {
-			"pdf": "2018CGA_Shi_IDSPlanet.pdf",
-		},
-		"year": 2018,
-		"featured": "no",
-		"award": "",
-		"type": "journal",
-		"png": "2018CGA_Shi_IDSPlanet.png",
-		"pubsub": "CGA",
-	},
-	{
-		"title": "Designing Emotional Expressions of Conversational States for Voice Assistants: Modality and Engagement",
-		"authors": "Yang Shi, Xin Yan, Xiaojuan Ma, Yongqi Lou, Nan Cao",
-		"publisher": "ACM SIGCHI Extended Abstracts on Human Factors in Computing Systems 2018",
-		"materials": {
-			"pdf": "2018CHI_Shi_Design.pdf",
-			"video": "https://www.youtube.com/watch?v=_66ZMXOzlOg"
-		},
-		"year": 2018,
-		"featured": "no",
-		"award": "",
-		"type": "conference",
-		"png": "2018CHI_Shi_Design.png",
-		"pubsub": "CHI EA",
-	},
-	{
-		"title": "MeetingVis: Visual Narratives to Assist in Recalling Meeting Context and Content",
-		"authors": "Yang Shi, Chris Bryan, Sridatt Bhamidipati, Ying Zhao, Yaoxue Zhang, Kwan-Liu Ma",
-		"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE PacificVis 2018)",
-		"materials": {
-			"pdf": "2018TVCG_Shi_MeetingVis.pdf",
-			"video": "https://www.youtube.com/watch?v=XngXXTv6zNo"
-		},
-		"year": 2018,
-		"featured": "yes",
-		"award": "IEEE PacificVis 2018 Honorable Mention Award",
-		"awardicon": "trophy",
-		"type": "journal",
-		"png": "2018TVCG_Shi_MeetingVis.png",
-		"pubsub": "TVCG",
-	},
-	{
-		"title": "IdeaWall: Improving Creative Collaboration through Combinatorial Visual Stimuli",
-		"authors": "Yang Shi, Yang Wang, Ye Qi, John Chen, Xiaoyao Xu, Kwan-Liu Ma",
-		"publisher": "ACM Computer-Supported Cooperative Work and Social Computing 2017",
-		"materials": {
-			"pdf": "2017CSCW_Shi_IdeaWall.pdf"
-		},
-		"year": 2017,
-		"featured": "yes",
-		"award": "",
-		"type": "conference",
-		"png": "2017CSCW_Shi_IdeaWall.png",
-		"pubsub": "CSCW",
-	},
-	{
-		"title": "Dimension Reconstruction for Visual Exploration of Subspace Clusters in High-dimensional Data",
-		"authors": "Fangfang Zhou, Juncai Li, Wei Huang, Ying Zhao, Xiaoru Yuan, Xing Liang, Yang Shi",
-		"publisher": "IEEE Pacific Visualization 2016",
-		"materials": {
-			"pdf": "2016PacificVis_Zhou_Dimension.pdf"
-		},
-		"year": 2016,
-		"featured": "no",
-		"award": "",
-		"type": "conference",
-		"png": "2016PacificVis_Zhou_Dimension.png",
-		"pubsub": "PacificVis",
-	},
-	{
-		"title": "ENTVis: A Visual Analytic Tool for Entropy-Based Network Traffic Anomaly Detection",
-		"authors": "Fangfang Zhou, Wei Huang, Ying Zhao, Yang Shi, Xing Liang, Xiaoping Fan",
-		"publisher": "IEEE Computer Graphics and Applications",
-		"materials": {
-			"pdf": "2015CGA_Zhou_EnTVis.pdf"
-		},
-		"year": 2015,
-		"featured": "no",
-		"award": "",
-		"type": "journal",
-		"png": "2015CGA_Zhou_EnTVis.png",
-		"pubsub": "CGA",
-	},
-	{
-		"title": "Celestia: A vocal interaction music game",
-		"authors": "Yang Shi, Cheng Yang",
-		"publisher": "CM SIGCHI Extended Abstracts on Human Factors in Computing Systems 2013",
-		"materials": {
-			"pdf": "2013CHI_Shi_Celestia.pdf",
-			"explorer": "https://vocalcelestia.wordpress.com/2013/01/17/hello/"
-		},
-		"year": 2013,
-		"featured": "no",
-		"award": "ACM SIGCHI 2013 Student Game Competition Top 3",
-		"awardicon": "award",
-		"type": "conference",			
-		"png": "2013CHI_Shi_Celestia.png",
-		"pubsub": "CHI EA",
-	},
-	{
-		"title": "Celestia: A vocal interaction music game",
-		"authors": "Cheng Yang, Yang Shi",
-		"publisher": "ACM SIGGRAPH 2013 Poster",
-		"materials": {
-			"pdf": "2013SIGGRAPH_Shi_Celestia_poster.png",
-			"explorer": "https://vocalcelestia.wordpress.com/2013/01/17/hello/"
-		},
-		"year": 2013,
-		"featured": "no",
-		"award": "",
-		"awardicon": "",
-		"type": "conference",			
-		"png": "2013SIGGRAPH_Shi_Celestia.png",
-		"pubsub": "SIGGRAPH Poster",
-	}
-]
 }
