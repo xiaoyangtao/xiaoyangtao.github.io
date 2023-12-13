@@ -17,29 +17,29 @@ data = {
 				{
 			"degree": "PhD",
 			"students": [{
-				"name": "Zichun Dai",
+				"name": "Zichun Dai, 2023-",
 				"degree": "PhD"
 			}
 		]},
 		{
 			"degree": "MS",
 			"students": [{
-				"name": "Yechun Peng",
+				"name": "Yechun Peng, 2023-",
 				"degree": "MS"
 			},{
-				"name": "Jingxin Ye",
+				"name": "Jingxin Ye, 2023-",
 				"degree": "MS"
 			},{
-				"name": "Jiani Hou",
+				"name": "Jiani Hou, 2022-",
 				"degree": "MS"
 			},{
-				"name": "Bingchang Chen",
+				"name": "Bingchang Chen, 2021-",
 				"degree": "MS"
 			},{
-				"name": "Tian Gao",
+				"name": "Tian Gao, 2020-2023",
 				"degree": "MS"
 			},{
-				"name": "Siji Chen",
+				"name": "Siji Chen, 2019-2022",
 				"degree": "MS"
 			}
 		]
