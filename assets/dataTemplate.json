@@ -1,6 +1,8 @@
 data = {
 	"news": [
 		{
+			"text": "Recipient of the General Program Fund (2025-2028) by the National Natural Science Foundation of China."
+		},{
 			"text": "Recipient of the General Program Fund (2020-2023) by the National Natural Science Foundation of Shanghai, China."
 		},
 		{
@@ -14,38 +16,64 @@ data = {
 		}
 	],
 	"students": [
-				{
+		{
 			"degree": "PhD",
 			"students": [{
+				"name": "Zikai Li",
+				"degree": "PhD"
+			},{
 				"name": "Zichun Dai",
 				"degree": "PhD"
 			}
 		]},
-		{
-			"degree": "MS",
-			"students": [{
-				"name": "Yechun Peng",
-				"degree": "MS"
-			},{
-				"name": "Jingxin Ye",
-				"degree": "MS"
-			},{
-				"name": "Jiani Hou",
-				"degree": "MS"
-			},{
-				"name": "Bingchang Chen",
-				"degree": "MS"
-			},{
-				"name": "Tian Gao",
-				"degree": "MS"
-			},{
-				"name": "Siji Chen",
-				"degree": "MS"
-			}
-		]
-		}],
+			{
+				"degree": "MS",
+				"students": [{
+					"name": "Ziang Li",
+					"degree": "MS"
+				},{
+					"name": "Chuyi Zhen",
+					"degree": "MS"
+				},{
+					"name": "Yechun Peng",
+					"degree": "MS"
+				},{
+					"name": "Jingxin Ye",
+					"degree": "MS"
+				},{
+					"name": "Jiani Hou",
+					"degree": "MS"
+				},{
+					"name": "Bingchang Chen",
+					"degree": "MS"
+				},{
+					"name": "Tian Gao",
+					"degree": "MS"
+				},{
+					"name": "Siji Chen",
+					"degree": "MS"
+				}
+			]
+			}],
 	"publications": [
-				{
+		{
+			"title": "Personalizing Products with Stylized Head Portraits for Self-Expression",
+			"authors": "Yang Shi, Yechun Peng, Shengqi Dang, Nanxuan Zhao, Nan Cao",
+			"publisher": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2024)",
+			"materials": {
+				"pdf": "2024CHI_PicMe_Shi.pdf",
+				"presentation" : "https://www.youtube.com/watch?v=FwMuuc8mU_Q",
+				"demo": "https://idvxlab.com/picme"
+			},
+			"year": 2024,
+			"featured": "yes",
+			"award": "",
+			"awardicon": "",
+			"type": "conference",
+			"png": "2024CHI_PicMe_Shi.png",
+			"pubsub": "CHI"
+		},
+		{
 			"title": "Supporting Guided Exploratory Visual Analysis on Time Series Data with Reinforcement Learning",
 			"authors": "Yang Shi, Bingchang Chen, Ying Chen, Zhuochen Jin, Ke Xu, Xiaohan Jiao, Tian Gao, Nan Cao",
 			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2023)",
@@ -62,7 +90,7 @@ data = {
 			"png": "2023VIS_Visail_Shi.jpg",
 			"pubsub": "TVCG"
 		},
-				{
+		{
 			"title": "Understanding Design Collaboration Between Designers and Artificial Intelligence: A Systematic Literature Review",
 			"authors": "Yang Shi, Tian Gao, Xiaohan Jiao, Nan Cao",
 			"publisher": "In Proceedings of the ACM on Human-Computer Interaction (CSCW2023)",
@@ -79,7 +107,7 @@ data = {
 			"png": "2023CSCW_AI4Design_Shi.png",
 			"pubsub": "CSCW"
 		},
-			{
+		{
 			"title": "Bring Clipart to Life",
 			"authors": "Nanxuan Zhao, Shengqi Dang, Hexun Lin, Yang Shi, Nan Cao",
 			"publisher": "International Conference on Computer Vision (ICCV2023)",
