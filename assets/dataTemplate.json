@@ -56,6 +56,23 @@ data = {
 			]
 			}],
 	"publications": [
+				{
+			"title": "Double Tap for This Post: Understanding the Communication of Data Visualization on Social Media",
+			"authors": "Yang Shi, Yechun Peng, Jieying Ding, Xingyu Lan, Nan Cao",
+			"publisher": "In Proceedings of the ACM on Human-Computer Interaction (CSCW2025)",
+			"materials": {
+				"pdf": "2025CSCW_Infocommunication_Shi.pdf",
+				//"presentation" : "https://www.youtube.com/watch?v=FwMuuc8mU_Q",
+				"explorer": "https://idvxlab.com/infocommunication/"
+			},
+			"year": 2025,
+			"featured": "yes",
+			"award": "",
+			"awardicon": "",
+			"type": "conference",
+			"png": "2025CSCW_Infocommunication_Shi.png",
+			"pubsub": "CSCW"
+		},
 		{
 			"title": "Personalizing Products with Stylized Head Portraits for Self-Expression",
 			"authors": "Yang Shi, Yechun Peng, Shengqi Dang, Nanxuan Zhao, Nan Cao",
