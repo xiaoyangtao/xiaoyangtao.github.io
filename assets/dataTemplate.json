@@ -18,7 +18,14 @@ data = {
 	"students": [
 		{
 			"degree": "PhD",
-			"students": [{
+			"students": [
+            {
+			    "name": "Zijian Yang",
+				"degree": "PhD"
+			},{
+			    "name": "Yechun Peng",
+				"degree": "PhD"
+			},{
 				"name": "Zikai Li",
 				"degree": "PhD"
 			},{
@@ -33,9 +40,6 @@ data = {
 					"degree": "MS"
 				},{
 					"name": "Chuyi Zhen",
-					"degree": "MS"
-				},{
-					"name": "Yechun Peng",
 					"degree": "MS"
 				},{
 					"name": "Jingxin Ye",
@@ -56,7 +60,22 @@ data = {
 			]
 			}],
 	"publications": [
-				{
+		{
+			"title": "Data Speaks, But Who Gives It a Voice? Understanding Persuasive Strategies in Data-Driven News Articles",
+			"authors": "Zikai Li, Chuyi Zheng, Ziang Li, Yang Shi",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2025)",
+			"materials": {
+				"pdf": "2025VIS_PersuasionDataNews_Li.pdf",
+				"presentation" : "https://www.youtube.com/watch?v=yPR6dkQWmZQ"
+			},
+			"year": 2025,
+			"featured": "yes",
+			"award": "",
+			"awardicon": "",
+			"type": "journal",
+			"png": "2025VIS_PersuasionDataNews_Li.png",
+			"pubsub": "TVCG"
+		},{
 			"title": "Double Tap for This Post: Understanding the Communication of Data Visualization on Social Media",
 			"authors": "Yang Shi, Yechun Peng, Jieying Ding, Xingyu Lan, Nan Cao",
 			"publisher": "In Proceedings of the ACM on Human-Computer Interaction (CSCW2025)",
