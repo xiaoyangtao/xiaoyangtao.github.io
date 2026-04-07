@@ -69,7 +69,7 @@ data = {
 				{
 			"title": "All Futures at Once: Supporting Speculative Design for Placemaking with Multi-Agent Social Simulation",
 			"authors": "Jiayang Li, Jiarui Jiang, Shuqing Tang, Mutao Yu, Xinyuan Song, Caoyang Xue, Yunsheng Su, Xinyang Tan, Yang Shi",
-			"publisher": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2026)",
+			"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2026)",
 			"materials": {
 				"pdf": "2026CHI_ParaScape_Li.pdf",
 				// "presentation" : "https://www.youtube.com/watch?v=yPR6dkQWmZQ"
@@ -85,7 +85,7 @@ data = {
 		{
 			"title": "From Touch to Change: Understanding Public Engagement in Data Physicalization for Social Good",
 			"authors": "Yechun Peng, Runxi Wu, Nan Cao, Yang Shi",
-			"publisher": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2026)",
+			"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2026)",
 			"materials": {
 				"pdf": "2026CHI_Pys4Good_Peng.pdf",
 				// "presentation" : "https://www.youtube.com/watch?v=yPR6dkQWmZQ"
@@ -165,7 +165,7 @@ data = {
 		{
 			"title": "Personalizing Products with Stylized Head Portraits for Self-Expression",
 			"authors": "Yang Shi, Yechun Peng, Shengqi Dang, Nanxuan Zhao, Nan Cao",
-			"publisher": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2024)",
+			"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2024)",
 			"materials": {
 				"pdf": "2024CHI_PicMe_Shi.pdf",
 				"presentation" : "https://www.youtube.com/watch?v=FwMuuc8mU_Q",
@@ -312,7 +312,7 @@ data = {
 		},{
 			"title": "Negative Emotions, Positive Outcomes? Exploring the Communication of Negativity in Serious Data Stories",
 			"authors": "Xingyu Lan, Yanqiu Wu, Yang Shi, Qing Chen, Nan Cao",
-			"publisher": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2022)",
+			"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2022)",
 			"materials": {
 				"pdf": "2022CHI_Negativity_Lan.pdf",
 				"video": "https://www.youtube.com/watch?v=hHwLUmJkmhU",
