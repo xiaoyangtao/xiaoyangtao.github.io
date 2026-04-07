@@ -66,9 +66,73 @@ data = {
 			]
 			}],
 	"publications": [
+				{
+			"title": "All Futures at Once: Supporting Speculative Design for Placemaking with Multi-Agent Social Simulation",
+			"authors": "Jiayang Li, Jiarui Jiang, Shuqing Tang, Mutao Yu, Xinyuan Song, Caoyang Xue, Yunsheng Su, Xinyang Tan, Yang Shi",
+			"publisher": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2026)",
+			"materials": {
+				"pdf": "2026CHI_ParaScape_Li.pdf",
+				// "presentation" : "https://www.youtube.com/watch?v=yPR6dkQWmZQ"
+			},
+			"year": 2026,
+			"featured": "yes",
+			"award": "",
+			"awardicon": "",
+			"type": "conference",
+			"png": "2026CHI_ParaScape_Li.png",
+			"pubsub": "CHI"
+		},
+		{
+			"title": "From Touch to Change: Understanding Public Engagement in Data Physicalization for Social Good",
+			"authors": "Yechun Peng, Runxi Wu, Nan Cao, Yang Shi",
+			"publisher": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2026)",
+			"materials": {
+				"pdf": "2026CHI_Pys4Good_Peng.pdf",
+				// "presentation" : "https://www.youtube.com/watch?v=yPR6dkQWmZQ"
+			},
+			"year": 2026,
+			"featured": "yes",
+			"award": "",
+			"awardicon": "",
+			"type": "conference",
+			"png": "2026CHI_Pys4Good_Peng.png",
+			"pubsub": "CHI"
+		},
+				{
+			"title": "How We Map Possibilities: Understanding Design Spaces for Visualization",
+			"authors": "Zichun Dai*, Yechun Peng*, Nan Cao, Yang Shi",
+			"publisher": "IEEE Transactions on Visualization and Computer Graphics",
+			"materials": {
+				"pdf": "2026TVCG_DesignSpace_Dai.pdf",
+				// "presentation" : "https://www.youtube.com/watch?v=yPR6dkQWmZQ"
+			},
+			"year": 2026,
+			"featured": "yes",
+			"award": "",
+			"awardicon": "",
+			"type": "journal",
+			"png": "2026TVCG_DesignSpace_Dai.png",
+			"pubsub": "TVCG"
+		},
+		{
+			"title": "Vistoryteller: Designing Data Stories with LLM Agent-Based Generation and Interactive User Control",
+			"authors": "Yang Shi, Chuyi Zheng, Zijian Yang, Ke Xu, Nan Cao",
+			"publisher": "In Proceedings of the ACM Conference on Intelligent User Interfaces (IUI2026)",
+			"materials": {
+				"pdf": "2026IUI_Vistoryteller_Shi.pdf",
+				// "presentation" : "https://www.youtube.com/watch?v=yPR6dkQWmZQ"
+			},
+			"year": 2026,
+			"featured": "yes",
+			"award": "",
+			"awardicon": "",
+			"type": "conference",
+			"png": "2026IUI_Vistoryteller_Shi.png",
+			"pubsub": "IUI"
+		},
 		{
 			"title": "Data Speaks, But Who Gives It a Voice? Understanding Persuasive Strategies in Data-Driven News Articles",
-			"authors": "Zikai Li, Chuyi Zheng, Ziang Li, Yang Shi",
+			"authors": "Zikai Li*, Chuyi Zheng*, Ziang Li, Yang Shi",
 			"publisher": "IEEE Transactions on Visualization and Computer Graphics (IEEE Vis2025)",
 			"materials": {
 				"pdf": "2025VIS_PersuasionDataNews_Li.pdf",
