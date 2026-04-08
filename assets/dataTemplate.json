@@ -88,6 +88,7 @@ data = {
 			"publisher": "ACM CHI Conference on Human Factors in Computing Systems (SIGCHI2026)",
 			"materials": {
 				"pdf": "2026CHI_Pys4Good_Peng.pdf",
+				"explorer" : "https://phys4good.github.io",
 				// "presentation" : "https://www.youtube.com/watch?v=yPR6dkQWmZQ"
 			},
 			"year": 2026,
@@ -104,7 +105,7 @@ data = {
 			"publisher": "IEEE Transactions on Visualization and Computer Graphics",
 			"materials": {
 				"pdf": "2026TVCG_DesignSpace_Dai.pdf",
-				// "presentation" : "https://www.youtube.com/watch?v=yPR6dkQWmZQ"
+				"explorer" : "https://designofdesign.github.io",
 			},
 			"year": 2026,
 			"featured": "yes",
