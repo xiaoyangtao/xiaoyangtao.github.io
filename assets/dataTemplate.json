@@ -17,51 +17,96 @@ data = {
 	],
 	"students": [
 		{
-			"degree": "PhD",
-			"students": [
-            {
+			"degree": "PhD Students / Alumni",
+			"students": [{
+			    "name": "Jiayang Li",
+				"degree": "PhD",
+	     	    "year": "",
+                "placement": ""
+			},{
 			    "name": "Zijian Yang",
-				"degree": "PhD"
+				"degree": "PhD",
+	     	    "year": "",
+                "placement": ""
 			},{
 			    "name": "Yechun Peng",
-				"degree": "PhD"
+				"degree": "PhD",
+	     	    "year": "",
+                "placement": ""
 			},{
 				"name": "Zikai Li",
-				"degree": "PhD"
+				"degree": "PhD",
+	     	    "year": "",
+                "placement": ""
 			},{
 				"name": "Zichun Dai",
-				"degree": "PhD"
+				"degree": "PhD",
+	     	    "year": "",
+                "placement": ""
 			}
 		]},
 			{
-				"degree": "MS",
+				"degree": "MS Students / Alumni",
 				"students": [{
+					"name": "Yiting Liu",
+					"degree": "MS",
+	     	        "year": "2029",
+                    "placement": ""
+				},{
+					"name": "Jinya Luo",
+					"degree": "MS",
+	     	        "year": "2029",
+                    "placement": ""
+				},{
+					"name": "Xinyi Huang",
+					"degree": "MS",
+	     	        "year": "2029",
+                    "placement": ""
+				},{
 					"name": "Yire Ma",
-					"degree": "MS"
+					"degree": "MS",
+	     	        "year": "2028",
+                    "placement": ""
 				},{
 					"name": "Qiushi He",
-					"degree": "MS"
+					"degree": "MS",
+	     	        "year": "2028",
+                    "placement": ""
 				},{
 					"name": "Ziang Li",
-					"degree": "MS"
+					"degree": "MS",
+	     	        "year": "2027",
+                    "placement": ""
 				},{
 					"name": "Chuyi Zhen",
-					"degree": "MS"
+					"degree": "MS",
+	     	        "year": "2027",
+                    "placement": ""
 				},{
 					"name": "Jingxin Ye",
-					"degree": "MS"
+					"degree": "MS",
+	     	        "year": "2026",
+                    "placement": "JD.com"
 				},{
 					"name": "Jiani Hou",
-					"degree": "MS"
+					"degree": "MS",
+	     	        "year": "2025",
+                    "placement": "Central SOE"
 				},{
 					"name": "Bingchang Chen",
-					"degree": "MS"
+					"degree": "MS",
+	     	        "year": "2024",
+                    "placement": "Alibaba Cloud"
 				},{
 					"name": "Tian Gao",
-					"degree": "MS"
+					"degree": "MS",
+	     	        "year": "2023",
+                    "placement": "Alibaba Cloud"
 				},{
-					"name": "Siji Chen",
-					"degree": "MS"
+					"name": "Siji Chen ",
+					"degree": "MS",
+	     	        "year": "2012",
+                    "placement": "ByteDance"
 				}
 			]
 			}],
