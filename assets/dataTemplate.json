@@ -151,6 +151,7 @@ data = {
 			"materials": {
 				"pdf": "2026TVCG_DesignSpace_Dai.pdf",
 				"explorer" : "https://designofdesign.github.io",
+				"presentation" : "https://youtu.be/y243YCP2Qts"
 			},
 			"year": 2026,
 			"featured": "yes",
@@ -166,7 +167,7 @@ data = {
 			"publisher": "In Proceedings of the ACM Conference on Intelligent User Interfaces (IUI2026)",
 			"materials": {
 				"pdf": "2026IUI_Vistoryteller_Shi.pdf",
-				// "presentation" : "https://www.youtube.com/watch?v=yPR6dkQWmZQ"
+				"presentation" : "https://youtu.be/CgSkBpOYU2s?si=nBNGAytH3jflozGr"
 			},
 			"year": 2026,
 			"featured": "yes",
